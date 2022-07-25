@@ -1,0 +1,517 @@
+/* global */
+html * {
+  font-family: 'Comic Sans MS'; 
+  font-size: 14px;
+}
+
+div.maintitle {
+ display: none; 
+}
+
+body {
+  background: url('https://i.servimg.com/u/f10/14/87/78/63/road-111.jpg'), #ff7c0a;
+  background-attachment: fixed;
+}
+
+hr {
+ height: 0;
+ border: solid #ff8b26 0;
+ border-top-width: 1px;
+}
+
+hr, #chatbox>p, div.separator {
+  border-top: 1px solid #ff8b26;
+}
+
+div.separator {
+ line-height: 1px; 
+  margin-top: 1px;
+}
+
+input, #submit_button {
+  background-color: #fdff70!important;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 1px solid black!important;
+}
+
+.label span, dt span {
+ color: #c70000!important; 
+}
+
+select, .sceditor-container, div.sceditor-toolbar, textarea, dd.quote, div.spoiler_content {
+  background-color: #fdff70!important;
+}
+
+div.spoiler_content, dd.quote, div.cont_code {
+  padding: 3px;
+}
+
+dd.quote {
+  font-style: italic; 
+}
+
+div.cont_code {
+ font-family: PT Mono, monospace; 
+}
+
+div.nav {
+ margin: 10px 0; 
+}
+
+.codebox {
+    width: 90%;
+    margin: auto;
+}
+
+.codebox dd {
+    margin: 0;
+    border: solid 1px #ff8b26;
+}
+
+#submit_button {
+ padding: 2px!important; 
+  height: auto!important;
+}
+
+div#like_popup {
+ display: none; 
+}
+
+.avatar.mini, .avatar.mini img {
+    width: 38px;
+}
+
+/* titles */
+h1, .cattitle {
+ display: inline; 
+  color: #c70000;
+  font-weight: bold;
+}
+
+h2 {
+  display: inline; 
+  margin: 2px;
+}
+
+h3 {
+  color: #c70000;
+  margin: 0px;
+}
+
+/* links */
+a {
+  color: #c70000;
+  text-decoration: none;
+}
+
+a:hover {
+ text-shadow: 0 0 8px #000000; 
+}
+
+a.mainmenu img {
+ width: 13%; 
+}
+
+/* Startseite */
+.bodylinewidth {
+  box-shadow: 0px 0px 10px #000000;
+  /*background: linear-gradient(to bottom, black 70%, #ff7c0a 100%);*/
+  background: linear-gradient(to bottom, black 50%, #ff7c0a);
+  border-radius: 5px 5px 5px 5px;
+  -webkit-box-shadow: 0px 0px 10px #000000;
+}
+
+/* Bilder */
+#i_logo {
+ content: url("https://2img.net/s/t/21/46/02/i_logo.jpg"); 
+  width: 100%;
+} 
+
+#i_icon_mini_index {
+  display: none; 
+}
+
+#i_icon_mini_faq {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/faq-me11.png');
+}
+
+#i_icon_mini_search {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/suche-11.png');
+}
+
+#i_icon_mini_members {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/mitgli14.png');
+}
+
+#i_icon_mini_groups {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/gruppe14.png');
+}
+
+#i_icon_mini_profile {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/profil16.png');
+}
+
+#i_icon_mini_message {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/botsch11.png');
+}
+
+#i_icon_mini_new_message {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/i_icon11.gif');
+}
+
+#i_icon_mini_logout {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/logout15.png');
+}
+
+#i_icon_mini_login {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/login-11.png');
+}
+
+#i_icon_mini_register {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/regist15.png');
+}
+
+#i_whosonline {
+ content: url("https://2img.net/s/t/21/55/71/i_whosonline.gif"); 
+}
+
+/* Stylewechsler */
+#wahl {
+  display: block;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  text-align: center; 
+} 
+
+/* Kategorie */
+table.forumline {
+  margin-bottom: 5px;
+}
+
+.forumline th, #grouptitle, .catHead, td.catLeft {
+  -moz-border-radius:5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  background-color: #fcff6f;
+  height: 25px;
+  padding: 2px;
+  color: #c70000;
+  text-align: center;
+}
+
+td.row1, td.row3, td.row2, td.row1 over, td.spaceRow {
+  background-color: #ff7c0a;
+  padding: 2px 3px;
+}
+
+td.row3.over, td.row3Right {
+  padding: 2px 3px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #ff8b26;
+}
+
+td.row3.over:hover {
+  background-color: #ff7c0a;
+}
+
+span.lastpost-avatar {
+  width: 50px;
+  height: 50px;
+  float:left;
+}
+
+span.lastpost-avatar img {
+  border-radius: 5px 5px 5px 5px;
+  height: 100%;
+  width: auto;
+  max-height: 50px;
+}
+
+span.gensmall span {
+ font-size: 12px; 
+}
+
+/* Beiträge */
+td.post-options {
+  text-align: right; 
+}
+
+div.signature_div {
+  border-top: 1px solid #fdff70;
+  margin-top: 20px;
+}
+
+div#smilies_header {
+  text-align: center;
+  margin: 5px;
+}
+
+/* bottom */
+td.catBottom {
+  background-color: black;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px;
+  border: 1px solid #e3924b;
+  border-width: 0 1px 1px;
+  height: 28px;
+  color: #c70000;
+}
+
+
+/* Wörter- und Zeichenzähler */
+#Forumieren_editorAmount {
+margin-top: 5px;
+text-align: center;
+}
+
+/* profiles */
+#profile-advanced-details dl dt {
+    float: left;
+    display: block;
+    width: 10em;
+}
+
+.invisible {
+    display: none;
+    visibility: hidden;
+}
+
+#profile-advanced-details dl dd {
+    margin-left: 10em;
+    padding-left: 12px;
+}
+
+.ajax-profil_parent {
+    position: relative;
+    zoom: 1;
+}
+
+.ajax-profil_hover {
+  background:transparent;
+}
+
+.ajax-profil_edit {
+  cursor:pointer;
+  position:absolute;
+  top:0;
+  left:-18px
+}
+
+.ajax-profil_edit img {
+  margin-left:4px
+}
+
+.ajax-profil_valid{
+  cursor:pointer;
+  margin-left:4px;
+  vertical-align:middle;
+}
+
+.friend-block {
+  float: left;
+  width: 70px;
+  margin: 1px;
+  text-align: center;
+  overflow: hidden;
+  height: auto;
+}
+
+.avatar img {
+    width: 50px;
+    border: 1px solid black;
+}
+
+.clear {
+    clear: both;
+}
+
+fieldset {
+ border: 3px double black; 
+  margin: 10px 0;
+}
+
+/* profile messages */
+#profile-advanced-details ol {
+   margin: 0; 
+   padding: 0; 
+   list-style: none; 
+}
+
+#profile-advanced-details ol li {
+    display: block;
+    margin-bottom: 4px;
+}
+
+#profile-advanced-details .avatar {
+    float: left;
+}
+
+#profile-advanced-details .message-block {
+    margin-left: 55px;
+}
+
+#profile-advanced-details .message-header {
+    border-top: 1px solid #ff8b26;
+    padding: 4px;
+    margin-bottom: 4px;
+}
+
+#profile-advanced-details .message-date {
+    float: right;
+}
+
+#profile-advanced-details .message-footer {
+    text-align: right;
+}
+
+#profile-advanced-details .message-footer li {
+    display: inline;
+    margin: 0 0.25em;
+}
+
+/* Gruppenlegende */
+.groups {
+ text-align: center;
+  font-size: 18px;
+  margin: 20px 0px;
+  color: #c70000;
+  font-weight: bold;
+}
+
+.grouptitle {
+ display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  background-color: #fcff6f;
+  border-radius: 5px 5px 5px 5px;
+  height: 30px;
+}
+
+.gdc {
+  color: #93FF54;
+}
+
+.gfc {
+  color: #8CFFEC;
+}
+
+.gsc {
+  color: #DBDB67;
+}
+
+.gwc {
+  color: #7200CF;
+}
+
+.gwoc {
+  color: #4D4B4B;
+}
+
+.ga {
+  color: #FFFFFF;
+}
+
+.gza {
+  color: #FFD500;
+}
+
+.gstc {
+  color: #0F20D6;
+}
+
+.gr {
+  color: #035C2E;
+}
+
+.gh {
+  color: #8F4F00;
+}
+
+.gg {
+  color: #15008F;
+}
+
+#stuff_below {margin-top: 20px;}
+
+/* chatbox */
+body.chatbox {
+ background: #ff7c0a; 
+}
+
+div#chatbox_header {
+ background-color: #fcff6f;
+ border-radius: 5px 5px 5px 5px;
+}
+
+td.chatbox-options {
+ text-align: right; 
+}
+
+#chatbox {
+  position: absolute;
+  top: 30px;
+  left: 181px;
+  right: 0;
+  bottom: 30px;
+  overflow: auto;
+  padding: 0px 2px;
+}
+
+a.cattitle {
+ font-weight: bold; 
+}
+
+#chatbox_members, #chatbox_channels {
+    position: absolute;
+    top: 60px;
+    bottom: 30px;
+    width: 180px;
+    overflow: auto;
+    border-right: 1px solid #fcff6f;
+  margin-right: 5px;
+    color: #000;
+}
+
+#chatbox_members .member-title, #chatbox_channels .member-title {
+    text-align: center;
+    padding: 0.5em 0.25em;
+  background-color: #ff8b26;
+}
+
+#chatbox>p {
+  margin: 2px;; 
+}
+
+#chatbox .msg {
+    line-height: 1.5em;
+    margin: 4px 2px;
+}
+
+span.date-and-time {
+ float: right; 
+}
+
+span.user {
+  float: left;
+}
+
+div#hatbox_footer {
+  display: block;
+  vertical-align: middle; 
+}
+
+#chatbox_footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px!important;
+  border-top: 1px solid black;
+}
+
+input#message.post {
+  background: #fcff6f;
+  height: 20px;
+}

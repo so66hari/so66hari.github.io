@@ -1,0 +1,536 @@
+/* global */
+html * {
+  font-family: 'Arial'; 
+  font-size: 14px;
+}
+
+body {
+  background: url('https://2img.net/s/t/21/75/98/i_background.jpg'), #8c8984;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+hr {
+ height: 0;
+ border: solid white 0;
+ border-top-width: 1px;
+}
+
+.forumline tr {
+ border-bottom: 1px solid black; 
+}
+
+hr, #chatbox>p, div.separator {
+  border-top: 1px solid #97948f;
+}
+
+div.separator {
+ line-height: 1px; 
+  margin-top: 1px;
+}
+
+input, #submit_button {
+  background-color: #CCCCCC!important;
+  font-weight: 700;
+  border: 1px solid black!important;
+}
+
+.label span, dt span {
+ color: #CCCCCC!important; 
+}
+
+select, .sceditor-container, div.sceditor-toolbar, textarea, dd.quote, div.spoiler_content {
+  background-color: #CCCCCC!important;
+}
+
+div.spoiler_content, dd.quote, div.cont_code {
+  padding: 3px;
+}
+
+dd.quote {
+  font-style: italic; 
+}
+
+div.cont_code {
+ font-family: PT Mono, monospace; 
+}
+
+div.nav {
+ margin: 10px 0; 
+}
+
+.codebox {
+    width: 90%;
+    margin: auto;
+}
+
+.codebox dd {
+    margin: 0;
+    border: solid 1px #CCCCCC;
+}
+
+#submit_button {
+ padding: 2px!important; 
+  height: auto!important;
+}
+
+div#like_popup {
+ display: none; 
+}
+
+.avatar.mini, .avatar.mini img {
+    width: 38px;
+}
+
+/* titles */
+h1, .cattitle {
+ display: inline; 
+  color: #CCCCCC;
+  font-weight: bold;
+}
+
+h2 {
+  display: inline; 
+  margin: 2px;
+  color: #CCCCCC
+}
+
+h3 {
+  color: black;
+  margin: 0px;
+}
+
+/* links */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+ text-shadow: 0 0 8px #000000; 
+}
+
+a.mainmenu img {
+ height: 30px; 
+  margin: 0 5px;
+}
+
+/* Startseite */
+.bodylinewidth {
+  box-shadow: 0px 0px 10px #000000;
+  background-color: #636363;
+  -webkit-box-shadow: 0px 0px 10px #000000;
+}
+
+/* Bilder */
+#i_logo {
+ content: url("https://2img.net/cdn.discordapp.com/attachments/427882780098166804/996614417804431360/unknown.png"); 
+  width: 100%;
+} 
+
+#i_icon_mini_index {
+  display: none; 
+}
+
+#i_icon_mini_faq {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/faq11.png');
+}
+
+#i_icon_mini_search {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/suche11.png');
+}
+
+#i_icon_mini_members {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/mitgli13.png');
+}
+
+#i_icon_mini_groups {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/gruppe13.png');
+}
+
+#i_icon_mini_profile {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/profil15.png');
+}
+
+#i_icon_mini_message {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/pn11.png');
+}
+
+#i_icon_mini_new_message {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/sprung10.gif');
+}
+
+#i_icon_mini_logout {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/logout14.png');
+}
+
+#i_icon_mini_login {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/login12.png');
+}
+
+#i_icon_mini_register {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/anmeld13.png');
+}
+
+#i_whosonline {
+ content: url("https://2img.net/s/t/21/55/71/i_whosonline.gif"); 
+}
+
+/* Stylewechsler */
+#wahl {
+  display: block;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  text-align: center; 
+} 
+
+/* Kategorie */
+table.forumline {
+  margin-bottom: 5px;
+  border: 2px groove silver;
+  border-collapse: collapse;
+}
+
+.forumline th, #grouptitle, .catHead, td.catLeft {
+  background-color: black;
+  height: 25px;
+  padding: 2px;
+  color: #CCCCCC;
+  text-align: center;
+}
+
+td.row1, td.row3, td.row2, td.row1 over, td.spaceRow {
+  background-color: #8c8984;
+  padding: 2px 3px;
+}
+
+td.row3.over, td.row3Right {
+  padding: 2px 3px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #97948f;
+}
+
+td.row3.over:hover {
+  background-color: #8c8984;
+}
+
+span.lastpost-avatar {
+  width: 50px;
+  height: 50px;
+  float:left;
+}
+
+span.lastpost-avatar img {
+  border-radius: 5px 5px 5px 5px;
+  height: 100%;
+  width: auto;
+  max-height: 50px;
+}
+
+span.gensmall span {
+ font-size: 12px; 
+}
+
+/* Beiträge */
+td.post-options {
+  text-align: right; 
+}
+
+div.signature_div {
+  border-top: 1px solid white;
+  margin-top: 20px;
+}
+
+div#smilies_header {
+    text-align: center;
+    margin: 5px;
+}
+
+/* bottom */
+td.tableBottom {
+  background-color: black;
+  height: 28px;
+}
+
+#nav_barr {
+position: fixed; /*--- Cette ligne permet de toujours afficher la barre ---*/
+width:780px; /*--- pour régler la largeur de la barre ---*/
+height:25px; /*--- pour régler la hauteur de la barre ---*/
+background: #EDE4DC ; /*--- On donne une couleur au fond ---*/
+margin-left:-400px; /* pour centrer: largeur divisée par -2 */
+margin-top:50px; 
+left:50%;
+-moz-border-radius:0px 0px 0px 0px; /* pour mozilla */
+-webkit-border-radius: 0px 0px 0px 0px; /* pour chrome et safari */
+border-radius:15px 15px 15px 15px; /* réglage des arrondis */
+-moz-box-shadow: 4px 4px 6px #787878;
+}
+#menu{
+list-style-type:none;
+text-align:center;
+}
+
+
+/* Wörter- und Zeichenzähler ANFANG */
+#Forumieren_editorAmount {
+margin-top: 5px;
+text-align: center;
+}
+/* Wörter- und Zeichenzähler ENDE */
+
+/* profiles */
+#profile-advanced-details dl dt {
+    float: left;
+    display: block;
+    width: 10em;
+}
+
+.invisible {
+    display: none;
+    visibility: hidden;
+}
+
+#profile-advanced-details dl dd {
+    margin-left: 10em;
+    padding-left: 12px;
+}
+
+.ajax-profil_parent {
+    position: relative;
+    zoom: 1;
+}
+
+.ajax-profil_hover {
+  background:transparent;
+}
+
+.ajax-profil_edit {
+  cursor:pointer;
+  position:absolute;
+  top:0;
+  left:-18px
+}
+
+.ajax-profil_edit img {
+  margin-left:4px
+}
+
+.ajax-profil_valid{
+  cursor:pointer;
+  margin-left:4px;
+  vertical-align:middle;
+}
+
+.friend-block {
+  float: left;
+  width: 70px;
+  margin: 1px;
+  text-align: center;
+  overflow: hidden;
+  height: auto;
+}
+
+.avatar img {
+    width: 50px;
+    border: 1px solid black;
+}
+
+.clear {
+    clear: both;
+}
+
+fieldset {
+ margin: 10px 0; 
+}
+
+/* profile messages */
+#profile-advanced-details ol {
+   margin: 0; 
+   padding: 0; 
+   list-style: none; 
+}
+
+#profile-advanced-details ol li {
+    display: block;
+    margin-bottom: 4px;
+}
+
+#profile-advanced-details .avatar {
+    float: left;
+}
+
+#profile-advanced-details .message-block {
+    margin-left: 55px;
+}
+
+#profile-advanced-details .message-header {
+    border-top: 1px solid #97948f;
+    padding: 4px;
+    margin-bottom: 4px;
+}
+
+#profile-advanced-details .message-date {
+    float: right;
+}
+
+#profile-advanced-details .message-footer {
+    text-align: right;
+}
+
+#profile-advanced-details .message-footer li {
+    display: inline;
+    margin: 0 0.25em;
+}
+
+/* Gruppenlegende */
+.groups {
+ text-align: center;
+  font-size: 18px;
+  margin: 20px 0px;
+  color: #CCCCCC;
+  font-weight: bold;
+}
+
+.grouptitle {
+ display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 30px;
+}
+
+.gdc {
+  color: #93FF54;
+}
+
+.gfc {
+  color: #8CFFEC;
+}
+
+.gsc {
+  color: #DBDB67;
+}
+
+.gwc {
+  color: #7200CF;
+}
+
+.gwoc {
+  color: #4D4B4B;
+}
+
+.ga {
+  color: #FFFFFF;
+}
+
+.gza {
+  color: #FFD500;
+}
+
+.gstc {
+  color: #0F20D6;
+}
+
+.gr {
+  color: #035C2E;
+}
+
+.gh {
+  color: #8F4F00;
+}
+
+.gg {
+  color: #15008F;
+}
+
+.postprofile img {
+max-height: 300px;
+max-width: 200px;
+}
+.postbody img {
+max-width: 800px;
+}
+
+#stuff_below {margin-top: 20px;}
+
+/* chatbox */
+body.chatbox {
+ background: #8c8984; 
+}
+
+div#chatbox_header {
+ background-color: black;
+}
+
+td.chatbox-options {
+ text-align: right; 
+}
+
+#chatbox {
+  position: absolute;
+  top: 30px;
+  left: 181px;
+  right: 0;
+  bottom: 30px;
+  overflow: auto;
+  padding: 0px 2px;
+}
+
+a.cattitle {
+ font-weight: bold; 
+}
+
+#chatbox_members, #chatbox_channels {
+    position: absolute;
+    top: 60px;
+    bottom: 30px;
+    width: 180px;
+    overflow: auto;
+    border-right: 1px solid white;
+  margin-right: 5px;
+    color: #000;
+}
+
+#chatbox_members .member-title, #chatbox_channels .member-title {
+    text-align: center;
+    padding: 0.5em 0.25em;
+  background-color: #8c8984;
+}
+
+#chatbox>p {
+  margin: 2px;; 
+}
+
+#chatbox .msg {
+    line-height: 1.5em;
+    margin: 4px 2px;
+}
+
+span.date-and-time {
+ float: right; 
+}
+
+span.user {
+  float: left;
+}
+
+div#hatbox_footer {
+  display: block;
+  vertical-align: middle; 
+}
+
+#chatbox_footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px!important;
+  border-top: 1px solid black;
+}
+
+input#message.post {
+  background: #CCCCCC;
+  height: 20px;
+}
