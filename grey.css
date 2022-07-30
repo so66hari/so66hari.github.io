@@ -47,6 +47,10 @@ div.nav {
     border: solid 1px #CCCCCC;
 }
 
+#wahl {
+ margin-top: 50px;
+}
+
 /* titles */
 h1, .cattitle {
  display: inline; 
