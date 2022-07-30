@@ -32,6 +32,7 @@ input, #submit_button {
 
 select, .sceditor-container, div.sceditor-toolbar, textarea, dd.quote, div.spoiler_content {
   background-color: #fdff70!important;
+  border-radius: 3px;
 }
 
 .codebox dd {
