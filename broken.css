@@ -63,7 +63,7 @@ a {
 }
 
 a:hover {
- text-shadow: 0 0 0; 
+ text-shadow: none; 
 }
 
 a.mainmenu img {
