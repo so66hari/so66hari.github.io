@@ -4,7 +4,7 @@ th, td, p {
 }
 
 body {
-  background: url('https://2img.net/s/t/21/75/98/i_background.jpg'), #8c8984;
+  background: url('https://2img.net/s/t/21/75/98/i_background.jpg'), #888888;
   background-attachment: fixed;
   background-size: 100%;
 }
@@ -196,7 +196,7 @@ td.catBottom {
 
 /* profile messages */
 #profile-advanced-details .message-header {
-    border-top: 1px solid #97948f;
+    border-top: 1px solid #888888;
     padding: 4px;
     margin-bottom: 4px;
 }
