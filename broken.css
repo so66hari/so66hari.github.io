@@ -71,7 +71,7 @@ a.mainmenu img {
 }
 
 .forumlink a, a.forumlink:link, a.topictitle, a.forumlink, .forumlink {
-  color: #c70000;
+  color: #c70000!important;
   text-shadow: 0.5px 0.5px 10px;
 }
 
