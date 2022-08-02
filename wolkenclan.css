@@ -15,10 +15,6 @@ hr {
  border-top-width: 1px;
 }
 
-.forumline tr {
- border-bottom: 1px solid black; 
-}
-
 hr, #chatbox>p, div.separator {
   border-top: 1px solid #97948f;
 }
@@ -174,6 +170,7 @@ table.forumline {
 td.row1, td.row3, td.row2, td.row1 over, td.spaceRow {
   background-color: rgba(255, 255, 255, 0.3);
   padding: 2px 3px;
+ border-top: 1px solid white;
 }
 
 td.row3.over, td.row3Right {
