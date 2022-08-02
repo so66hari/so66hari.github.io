@@ -72,7 +72,7 @@ h3 {
 a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink {
   color: #b5c2cb;
   text-decoration: none;
-  text-shadow: 0 0 0;
+  text-shadow: 0 0 3px black;
   letter-spacing: 2px;
 }
 
