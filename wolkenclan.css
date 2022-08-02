@@ -25,7 +25,7 @@ input, #submit_button {
 }
 
 select, .sceditor-container, div.sceditor-toolbar, textarea, dd.quote, div.spoiler_content {
-  background-color: #CCCCCC!important;
+  background-color: rgba(0, 0, 0, 0.3)!important;
 }
 
 div.nav {
