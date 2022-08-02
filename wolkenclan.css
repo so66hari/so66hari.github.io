@@ -3,7 +3,7 @@ th, td, p {
     font-family: 'Arima', sans-serif;
 }
 
-strong {
+strong, b {
   letter-spacing: 1px;
 }
 
