@@ -3,6 +3,10 @@ th, td, p {
     font-family: 'Arima', sans-serif;
 }
 
+strong {
+  letter-spacing: 1px;
+}
+
 hr {
  height: 0;
  border: solid white 0;
