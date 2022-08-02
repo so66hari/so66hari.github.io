@@ -155,6 +155,7 @@ table.forumline {
   border-collapse: collapse;
   background-color: transparent;
   box-shadow: 0 0 10px white;
+ border: none;
 }
 
 .forumline th, #grouptitle, .catHead, td.catLeft {
