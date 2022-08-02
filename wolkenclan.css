@@ -78,6 +78,7 @@ a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink {
   color: white;
   text-decoration: none;
   text-shadow: 0 0 0;
+  letter-spacing: 2px;
 }
 
 a:hover, .forumlink a:hover {
