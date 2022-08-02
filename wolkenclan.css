@@ -3,12 +3,6 @@ th, td, p {
     font-family: 'Arima', sans-serif;
 }
 
-body {
-  background: url('https://i.servimg.com/u/f46/20/01/38/22/backgr11.jpg'), #888888;
-  background-attachment: fixed;
-  background-size: 100%;
-}
-
 hr {
  height: 0;
  border: solid white 0;
@@ -100,8 +94,14 @@ a.mainmenu img {
 }
 
 /* Bilder */
+body {
+  background: url('https://i.servimg.com/u/f46/20/01/38/22/backgr11.jpg'), #888888;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
 #i_logo {
- content: url("https://i.servimg.com/u/f46/20/01/38/22/nebelc11.png"); 
+ content: url("https://i82.servimg.com/u/f82/19/75/22/87/nebelc10.png"); 
   width: 100%;
 } 
 
