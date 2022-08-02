@@ -10,7 +10,7 @@ hr {
 }
 
 hr, #chatbox>p, div.separator {
-  border-top: 1px solid #97948f;
+  border-top: 1px solid #CCCCCC;
 }
 
 input, #submit_button {
