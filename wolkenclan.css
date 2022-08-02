@@ -73,6 +73,11 @@ h3 {
   color: black;
 }
 
+.secondarytitle h2 {
+  font-variant: small-caps;
+  font-size: 16px;
+}
+
 /* links */
 a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink {
   color: white;
