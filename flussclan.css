@@ -156,17 +156,16 @@ table.forumline {
   margin: 5px 0;
   border-collapse: collapse;
   background-color: transparent;
-  box-shadow: 0 0 10px white;
  border: none;
 }
 
 .forumline th, #grouptitle, .catHead, td.catLeft {
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: #3d393a;
   height: 25px;
   padding: 2px;
-  color: #CCCCCC;
+  color: #689bc6;
   text-align: center;
-  border-radius: 0;
+  border-radius: 5px 5px 0 0;
 }
 
 td.row1, td.row3, td.row2, td.row1 over, td.spaceRow {
