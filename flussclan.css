@@ -89,13 +89,13 @@ a.mainmenu img {
 /* Startseite */
 .bodylinewidth {
   box-shadow: 0px 0px 10px #000000;
-  background: linear-gradient(to bottom, #37806f, #48372f);
+  background: linear-gradient(to bottom, #4098b9, #383c45);
   -webkit-box-shadow: 0px 0px 10px #254540;
 }
 
 /* Bilder */
 body {
-  background: url('https://cdn.discordapp.com/attachments/427137355976146951/1004481108001423501/flussclan.jpg'), #888888;
+  background: url('https://i43.servimg.com/u/f43/19/81/66/84/icelan10.jpg'), #759cc5;
   background-attachment: fixed;
   background-size: 100%;
 }
