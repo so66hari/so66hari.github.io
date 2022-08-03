@@ -88,10 +88,10 @@ a.mainmenu img {
 
 /* Startseite */
 .bodylinewidth {
-  box-shadow: 0px 0px 10px #254540;
+  box-shadow: 0px 0px 10px #3d393a;
   background: linear-gradient(to bottom, #4e78a0, #383c45);
     opacity: 0.9;
-  -webkit-box-shadow: 0px 0px 10px #254540;
+  -webkit-box-shadow: 0px 0px 10px #3d393a;
     border-radius: 80px 20px 80px 20px;
 }
 
