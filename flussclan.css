@@ -5,18 +5,17 @@ th, td, p {
 
 hr {
  height: 0;
- border: solid white 0;
+ border: solid #3e3a3b 0;
  border-top-width: 1px;
 }
 
 hr, #chatbox>p, div.separator {
-  border-top: 1px solid #CCCCCC;
+  border-top: 1px solid #3e3a3b;
 }
 
 input, #submit_button {
   background-color: #CCCCCC!important;
   font-weight: 700;
-  box-shadow: 0 0 5px #cccccc;
   border-radius: 0;
 }
 
@@ -34,7 +33,7 @@ div.nav {
 
 .codebox dd {
     margin: 0;
-    border: solid 1px #CCCCCC;
+    border: solid 1px #3e3a3b;
 }
 
 #wahl {
@@ -70,10 +69,9 @@ h3 {
 
 /* links */
 a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink {
-  color: #b5c2cb;
+  color: #3e3a3b;
   text-decoration: none;
   letter-spacing: 2px;
- text-shadow: 0px 0px 2px black;
 }
 
 a:hover, .forumlink a:hover {
@@ -88,7 +86,7 @@ a.mainmenu img {
 
 /* Startseite */
 .bodylinewidth {
-  box-shadow: 0px 0px 10px #3d393a;
+  box-shadow: 0px 0px 10px #3e3a3b;
   background: linear-gradient(to bottom, #4e78a0, #383c45);
     opacity: 0.9;
   -webkit-box-shadow: 0px 0px 10px #3d393a;
