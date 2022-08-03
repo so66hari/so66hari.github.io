@@ -1,0 +1,221 @@
+/* global */
+th, td, p {
+    font-family: 'Arima', sans-serif;
+}
+
+strong, b {
+  letter-spacing: 1px;
+}
+
+hr {
+ height: 0;
+ border: solid white 0;
+ border-top-width: 1px;
+}
+
+hr, #chatbox>p, div.separator {
+  border-top: 1px solid #CCCCCC;
+}
+
+input, #submit_button {
+  background-color: #CCCCCC!important;
+  font-weight: 700;
+  box-shadow: 0 0 5px #cccccc;
+  border-radius: 0;
+}
+
+.label span, dt span {
+ color: #CCCCCC!important; 
+}
+
+select, .sceditor-container, div.sceditor-toolbar, textarea, dd.quote, div.spoiler_content {
+  background-color: rgba(0, 0, 0, 0.1)!important;
+}
+
+div.nav {
+ margin: 10px 0; 
+}
+
+.codebox dd {
+    margin: 0;
+    border: solid 1px #CCCCCC;
+}
+
+#wahl {
+ margin-top: 50px;
+}
+
+/* titles */
+h1, .cattitle {
+ display: inline; 
+  color: #CCCCCC;
+  font-weight: bold;
+}
+
+h2 {
+  display: inline; 
+  margin: 2px;
+  color: #CCCCCC
+}
+
+h3 {
+  color: black;
+  margin: 0px;
+}
+
+.no-reduct {
+  color: black;
+}
+
+.secondarytitle h2, th {
+  font-variant: small-caps;
+  font-size: 18px;
+}
+
+/* links */
+a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink {
+  color: #b5c2cb;
+  text-decoration: none;
+  letter-spacing: 2px;
+ text-shadow: 0px 0px 2px black;
+}
+
+a:hover, .forumlink a:hover {
+ text-shadow: 0 0 8px #000000; 
+}
+
+a.mainmenu img {
+ height: 30px; 
+  margin: 0 5px;
+  width: auto;
+}
+
+/* Startseite */
+.bodylinewidth {
+  box-shadow: 0px 0px 10px #000000;
+  background: linear-gradient(to bottom, #ac7f86, #233038);
+  -webkit-box-shadow: 0px 0px 10px white;
+}
+
+/* Bilder */
+body {
+  background: url('https://cdn.discordapp.com/attachments/427137355976146951/1004481108001423501/flussclan.jpg'), #888888;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+#i_logo {
+ content: url('https://cdn.discordapp.com/attachments/427137355976146951/1004511781844156426/header.png'); 
+  width: 100%;
+} 
+
+#i_icon_mini_faq {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/faq12.png');
+}
+
+#i_icon_mini_search {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/suche12.png');
+}
+
+#i_icon_mini_members {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/mitgli15.png');
+}
+
+#i_icon_mini_groups {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/gruppe15.png');
+}
+
+#i_icon_mini_profile {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/profil17.png');
+}
+
+#i_icon_mini_message {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/pn12.png');
+}
+
+#i_icon_mini_new_message {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/output10.gif');
+}
+
+#i_icon_mini_logout {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/logout16.png');
+}
+
+#i_icon_mini_login {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/login13.png');
+}
+
+#i_icon_mini_register {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/regist16.png');
+}
+
+#i_whosonline {
+ content: url("https://2img.net/s/t/21/55/71/i_whosonline.gif"); 
+}
+
+/* Kategorie */
+table.forumline {
+  margin: 5px 0;
+  border-collapse: collapse;
+  background-color: transparent;
+  box-shadow: 0 0 10px white;
+ border: none;
+}
+
+.forumline th, #grouptitle, .catHead, td.catLeft {
+  background-color: rgba(0, 0, 0, 0.25);
+  height: 25px;
+  padding: 2px;
+  color: #CCCCCC;
+  text-align: center;
+  border-radius: 0;
+}
+
+td.row1, td.row3, td.row2, td.row1 over, td.spaceRow {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 2px 3px;
+ border-top: 1px solid white;
+}
+
+td.row3.over, td.row3Right {
+  padding: 2px 3px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-top: 1px solid white;
+}
+
+td.row3.over:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Beiträge */
+div.signature_div {
+  border-top: 1px solid white;
+  margin-top: 20px;
+}
+
+/* bottom */
+td.catBottom {
+  background: none;
+  height: 28px;
+  border: none;
+  color: black;
+}
+
+/* profile messages */
+#profile-advanced-details .message-header {
+    border-top: 1px solid #888888;
+    padding: 4px;
+    margin-bottom: 4px;
+}
+
+/* Gruppenlegende */
+.groups {
+  color: #CCCCCC;
+}
+
+.grouptitle {
+  background-color: black;
+  color: #CCCCCC;
+}
