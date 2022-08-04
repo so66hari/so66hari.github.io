@@ -9,14 +9,14 @@ hr {
  border-top-width: 1px;
 }
 
-hr, #chatbox>p, div.separator {
+hr, div.separator {
   border-top: 1px solid #3e3a3b;
 }
 
 input, #submit_button {
-  background-color: #CCCCCC!important;
+  background-color: #689bc6!important;
   font-weight: 700;
-  border-radius: 0;
+  border-radius: 5px 0 5px 0;
 }
 
 .label span, dt span {
@@ -72,10 +72,11 @@ a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink {
   color: #3e3a3b;
   text-decoration: none;
   letter-spacing: 2px;
+    font-weight: 500;
 }
 
 a:hover, .forumlink a:hover {
- text-shadow: 0 0 8px #000000; 
+ text-decoration: underline; 
 }
 
 a.mainmenu img {
@@ -169,7 +170,7 @@ table.forumline {
 td.row1, td.row3, td.row2, td.row1 over, td.spaceRow {
   background-color: rgba(255, 255, 255, 0.2);
   padding: 2px 3px;
- border-top: 1px solid white;
+ border-top: 1px solid #3e3a3b;
 }
 
 td.row3.over, td.row3Right {
@@ -186,7 +187,7 @@ td.row3.over:hover {
 
 /* Beiträge */
 div.signature_div {
-  border-top: 1px solid white;
+  border-top: 1px solid #3e3a3b;
   margin-top: 20px;
 }
 
@@ -200,17 +201,17 @@ td.catBottom {
 
 /* profile messages */
 #profile-advanced-details .message-header {
-    border-top: 1px solid #888888;
+    border-top: 1px solid #3e3a3b;
     padding: 4px;
     margin-bottom: 4px;
 }
 
 /* Gruppenlegende */
 .groups {
-  color: #CCCCCC;
+  color: #3e3a3b;
 }
 
 .grouptitle {
   background-color: black;
-  color: #CCCCCC;
+  color: #3e3a3b;
 }
