@@ -109,7 +109,7 @@ body {
 }
 
 #i_logo {
- content: url('https://cdn.discordapp.com/attachments/427137355976146951/1004512175282462930/header2.png'); 
+ content: url('https://cdn.discordapp.com/attachments/427137355976146951/1004858072776314880/windclanhd.png'); 
   width: 100%;
 } 
 
