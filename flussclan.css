@@ -5,7 +5,7 @@ th, td, p {
 
 hr {
  height: 0;
- border: solid #3e3a3b 0;
+ border: solid #689bc6 0;
  border-top-width: 1px;
 }
 
@@ -170,7 +170,7 @@ table.forumline {
 td.row1, td.row3, td.row2, td.row1 over, td.spaceRow {
   background-color: rgba(255, 255, 255, 0.2);
   padding: 2px 3px;
- border-top: 1px solid #3e3a3b;
+ border-top: 1px solid #689bc6;
 }
 
 td.row3.over, td.row3Right {
@@ -178,7 +178,7 @@ td.row3.over, td.row3Right {
   vertical-align: middle;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.25);
-  border-top: 1px solid white;
+  border-top: 1px solid #689bc6;
 }
 
 td.row3.over:hover {
@@ -201,7 +201,7 @@ td.catBottom {
 
 /* profile messages */
 #profile-advanced-details .message-header {
-    border-top: 1px solid #3e3a3b;
+    border-top: 1px solid #689bc6;
     padding: 4px;
     margin-bottom: 4px;
 }
