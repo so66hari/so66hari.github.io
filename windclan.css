@@ -176,7 +176,7 @@ table.forumline {
 }
 
 td.row1, td.row3, td.row2, td.row1 over, td.spaceRow {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   border-right: 1px dotted #3d393a;
   border-left: 1px dotted #3d393a;
   padding: 2px 3px;
@@ -188,11 +188,11 @@ td.row3.over, td.row3Right {
   text-align: center;
   border-right: 1px dotted #3d393a;
   border-left: 1px dotted #3d393a;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 td.row3.over:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   border-right: 1px dotted #3d393a;
   border-left: 1px dotted #3d393a;
 }
