@@ -1,1 +1,228 @@
+/* global */
+th, td, p {
+    font-family: 'Mali', sans-serif;
+}
 
+hr {
+ height: 0;
+ border: dotted #689bc6 0;
+ border-top-width: 1px;
+}
+
+hr, div.separator {
+  border-width: 1px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to right, 
+      #b78d67, 
+      #4b699b
+    ) 1 100%;
+}
+
+input, #submit_button {
+  background-color: #689bc6!important;
+  font-weight: 700;
+  border-radius: 5px 0 5px 0;
+}
+
+.label span, dt span {
+ color: #CCCCCC!important; 
+}
+
+select, .sceditor-container, div.sceditor-toolbar, textarea, dd.quote, div.spoiler_content {
+  background-color: rgba(0, 0, 0, 0.1)!important;
+}
+
+div.nav {
+ margin: 10px 0; 
+}
+
+.codebox dd {
+    margin: 0;
+    border: solid 1px #3e3a3b;
+}
+
+#wahl {
+ margin-top: 50px;
+}
+
+/* titles */
+h1, .cattitle {
+ display: inline; 
+  color: #CCCCCC;
+  font-weight: bold;
+}
+
+h2 {
+  display: inline; 
+  margin: 2px;
+  color: #689bc6;
+}
+
+h3 {
+  color: black;
+  margin: 0px;
+}
+
+.no-reduct {
+  color: black;
+}
+
+.secondarytitle h2, th {
+  font-variant: small-caps;
+  font-size: 18px;
+}
+
+/* links */
+a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink {
+  color: #3e3a3b;
+  text-decoration: none;
+  letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+a:hover, .forumlink a:hover {
+ text-decoration: underline; 
+    text-shadow: none;
+}
+
+a.mainmenu img {
+ height: 30px; 
+  margin: 0 5px;
+  width: auto;
+}
+
+/* Startseite */
+.bodylinewidth {
+  box-shadow: 0px 0px 10px #cccccc;
+  background-color: #cccccc;
+    opacity: 0.9;
+  -webkit-box-shadow: 0px 0px 10px #cccccc;
+}
+
+/* Bilder */
+body {
+  background: url('https://i43.servimg.com/u/f43/19/81/66/84/windcl10.jpg'), #759cc5;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+#i_logo {
+ content: url('https://cdn.discordapp.com/attachments/427137355976146951/1004512175282462930/header2.png'); 
+  width: 100%;
+} 
+
+#i_icon_mini_faq {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/faq13.png');
+}
+
+#i_icon_mini_search {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/suche13.png');
+}
+
+#i_icon_mini_members {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/mitgl13.png');
+}
+
+#i_icon_mini_groups {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/grp11.png');
+}
+
+#i_icon_mini_profile {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/profil18.png');
+}
+
+#i_icon_mini_message {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/pn13.png');
+}
+
+#i_icon_mini_new_message {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/output11.gif');
+}
+
+#i_icon_mini_logout {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/logout17.png');
+}
+
+#i_icon_mini_login {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/login15.png');
+}
+
+#i_icon_mini_register {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/anm10.png');
+}
+
+#i_whosonline {
+ content: url("https://2img.net/s/t/21/55/71/i_whosonline.gif"); 
+}
+
+/* Kategorie */
+table.forumline {
+  margin: 5px 0;
+  border-collapse: collapse;
+  background-color: transparent;
+  border: none;  
+}
+
+.forumline th, #grouptitle, .catHead, td.catLeft {
+  background-color: #3d393a;
+  height: 25px;
+  padding: 2px;
+  color: #689bc6;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+}
+
+td.row1, td.row3, td.row2, td.row1 over, td.spaceRow {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-right: 1px dotted #3d393a;
+  border-left: 1px dotted #3d393a;
+  padding: 2px 3px;
+}
+
+td.row3.over, td.row3Right {
+  padding: 2px 3px;
+  vertical-align: middle;
+  text-align: center;
+  border-right: 1px dotted #3d393a;
+  border-left: 1px dotted #3d393a;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+td.row3.over:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-right: 1px dotted #3d393a;
+  border-left: 1px dotted #3d393a;
+}
+
+/* Beiträge */
+div.signature_div {
+  border-top: 1px dotted #3e3a3b;
+  margin-top: 20px;
+}
+
+/* bottom */
+td.catBottom {
+  background: none;
+  height: 28px;
+  border: none;
+  color: black;
+}
+
+/* profile messages */
+#profile-advanced-details .message-header {
+    border-top: 1px dotted #689bc6;
+    padding: 4px;
+    margin-bottom: 4px;
+}
+
+/* Gruppenlegende */
+.groups {
+  color: #3e3a3b;
+}
+
+.grouptitle {
+  background-color: black;
+  color: #3e3a3b;
+}
