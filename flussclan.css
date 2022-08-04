@@ -72,7 +72,7 @@ a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink {
   color: #3e3a3b;
   text-decoration: none;
   letter-spacing: 2px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 a:hover, .forumlink a:hover {
@@ -153,9 +153,8 @@ body {
 /* Kategorie */
 table.forumline {
   margin: 5px 0;
-  border-collapse: separate;
+  border-collapse: collapse;
   background-color: transparent;
-  border: none;
 }
 
 .forumline th, #grouptitle, .catHead, td.catLeft {
@@ -169,6 +168,8 @@ table.forumline {
 
 td.row1, td.row3, td.row2, td.row1 over, td.spaceRow {
   background-color: rgba(255, 255, 255, 0.2);
+  border-right: 1px dotted #3d393a;
+  border-eleft: 1px dotted #3d393a;
   padding: 2px 3px;
 }
 
@@ -176,11 +177,15 @@ td.row3.over, td.row3Right {
   padding: 2px 3px;
   vertical-align: middle;
   text-align: center;
+  border-right: 1px dotted #3d393a;
+  border-eleft: 1px dotted #3d393a;
   background-color: rgba(255, 255, 255, 0.25);
 }
 
 td.row3.over:hover {
   background-color: rgba(255, 255, 255, 0.2);
+  border-right: 1px dotted #3d393a;
+  border-eleft: 1px dotted #3d393a;
 }
 
 /* Beiträge */
