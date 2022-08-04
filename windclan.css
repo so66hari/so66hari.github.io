@@ -58,6 +58,7 @@ h2 {
   display: inline; 
   margin: 2px;
   color: #4b699b;
+  font-size: 1em;  
 }
 
 h3 {
@@ -217,10 +218,10 @@ td.catBottom {
 
 /* Gruppenlegende */
 .groups {
-  color: #3e3a3b;
+  color: #4b699b;
 }
 
 .grouptitle {
   background-color: black;
-  color: #3e3a3b;
+  color: #4b699b;
 }
