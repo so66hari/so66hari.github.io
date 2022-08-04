@@ -57,7 +57,7 @@ h1, .cattitle {
 h2 {
   display: inline; 
   margin: 2px;
-  backgroud-image: linear-gradient(to right, #b78d67, #4b699b);
+  background-image: linear-gradient(to right, #b78d67, #4b699b);
 }
 
 h3 {
