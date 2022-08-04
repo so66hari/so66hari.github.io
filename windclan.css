@@ -70,7 +70,7 @@ h3 {
   color: black;
 }
 
-.secondarytitle h2, th {
+.secondarytitle h2 {
   font-variant: small-caps;
   font-size: 18px;
   background-image: linear-gradient(to right, #b78d67, #4b699b);
