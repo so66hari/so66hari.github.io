@@ -170,7 +170,6 @@ table.forumline {
 td.row1, td.row3, td.row2, td.row1 over, td.spaceRow {
   background-color: rgba(255, 255, 255, 0.2);
   padding: 2px 3px;
- border-top: 1px solid #689bc6;
 }
 
 td.row3.over, td.row3Right {
@@ -178,7 +177,11 @@ td.row3.over, td.row3Right {
   vertical-align: middle;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.25);
-  border-top: 1px solid #689bc6;
+}
+
+td.row3 {
+  border-left: 1px solid #3d393a;
+  border-right: 1px solid #3d393a;  
 }
 
 td.row3.over:hover {
