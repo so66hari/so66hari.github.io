@@ -26,7 +26,7 @@ input, #submit_button {
 }
 
 .label span, dt span {
- color: #black!important; 
+ color: #000!important; 
 }
 
 select, .sceditor-container, div.sceditor-toolbar, textarea, dd.quote, div.spoiler_content {
