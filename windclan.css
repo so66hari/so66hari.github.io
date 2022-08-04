@@ -78,11 +78,12 @@ h3 {
 a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink {
   color: #b78d67;
   text-decoration: none;
-    font-weight: bolder;
+  font-weight: bolder;
+  text-shadow: 0 0 5px black;  
 }
 
 a:hover, .forumlink a:hover {
-    text-shadow: none;
+    text-shadow: 0 0 10px black;
 }
 
 a.mainmenu img {
