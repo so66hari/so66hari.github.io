@@ -72,9 +72,6 @@ h3 {
 .secondarytitle h2, th {
   font-variant: small-caps;
   font-size: 18px;
-    background-image: linear-gradient(to right, #b78d67, #4b699b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 /* links */
