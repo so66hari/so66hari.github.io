@@ -190,6 +190,7 @@ table.forumline {
 td.row1, td.row3, td.row2, td.row1 over, td.spaceRow {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 2px 3px;
+  box-shadow: 0 0 3px #b78d67, 0 0 5px #4b699b;
 }
 
 td.row3.over, td.row3Right {
