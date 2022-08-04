@@ -57,9 +57,7 @@ h1, .cattitle {
 h2 {
   display: inline; 
   margin: 2px;
-  background-image: linear-gradient(to right, #b78d67, #4b699b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  color: #4b699b;
 }
 
 h3 {
@@ -74,18 +72,19 @@ h3 {
 .secondarytitle h2, th {
   font-variant: small-caps;
   font-size: 18px;
+    background-image: linear-gradient(to right, #b78d67, #4b699b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* links */
 a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink {
-  color: #3e3a3b;
+  color: #b78d67;
   text-decoration: none;
-  letter-spacing: 2px;
     font-weight: bolder;
 }
 
 a:hover, .forumlink a:hover {
- text-decoration: underline; 
     text-shadow: none;
 }
 
@@ -170,7 +169,7 @@ table.forumline {
   background-color: rgba(0, 0, 0, 0.5);
   height: 25px;
   padding: 2px;
-  color: #689bc6;
+  color: #4b699b;
   text-align: center;
   border-radius: 5px 5px 0 0;
 }
