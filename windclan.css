@@ -167,7 +167,7 @@ table.forumline {
 }
 
 .forumline th, #grouptitle, .catHead, td.catLeft {
-  background-color: #cccccc;
+  background-color: rgba(0, 0, 0, 0.5);
   height: 25px;
   padding: 2px;
   color: #689bc6;
