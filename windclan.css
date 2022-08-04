@@ -17,6 +17,7 @@ hr, div.separator {
       #b78d67, 
       #4b699b
     );
+    border-image-slice: 1;
 }
 
 input, #submit_button {
@@ -56,7 +57,7 @@ h1, .cattitle {
 h2 {
   display: inline; 
   margin: 2px;
-  color: #689bc6;
+  backgroud-image: linear-gradient(to right, #b78d67, #4b699b);
 }
 
 h3 {
@@ -165,7 +166,7 @@ table.forumline {
 }
 
 .forumline th, #grouptitle, .catHead, td.catLeft {
-  background-color: #3d393a;
+  background-color: #cccccc;
   height: 25px;
   padding: 2px;
   color: #689bc6;
