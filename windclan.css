@@ -10,14 +10,13 @@ hr {
 }
 
 hr, div.separator {
-  border-width: 1px;
-  border-style: solid;
+  border-top: 1px solid transparent;
   border-image: 
     linear-gradient(
       to right, 
       #b78d67, 
       #4b699b
-    ) 1 100%;
+    );
 }
 
 input, #submit_button {
