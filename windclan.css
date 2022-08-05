@@ -249,3 +249,8 @@ td.catBottom {
   background-color: black;
   color: #4b699b;
 }
+
+/* Chatbox */
+body.chatbox {
+ background-color: linear-gradient(to right, #b78d67, #4b699b)!important;    
+}
