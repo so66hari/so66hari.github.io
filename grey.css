@@ -74,7 +74,7 @@ h3 {
 }
 
 /* links */
-a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink, #fa_toolbar a, a:visited {
+a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink, #fa_toolbar a, #fa_toolbar a:visited {
   color: white;
   text-decoration: none;
   text-shadow: 0 0 0;
