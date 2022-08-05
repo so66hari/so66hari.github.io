@@ -254,3 +254,10 @@ td.catBottom {
 body.chatbox {
  background-color: linear-gradient(to right, #b78d67, #4b699b)!important;    
 }
+
+/* toolbar*/
+#fa_toolbar {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: black;
+  font-family: 'Mali';
+}
