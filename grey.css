@@ -210,3 +210,10 @@ td.catBottom {
   background-color: black;
   color: #CCCCCC;
 }
+
+/* toolbar*/
+#fa_toolbar {
+  background-color: #767676;
+  color: black;
+  font-family: 'Arial';
+}
