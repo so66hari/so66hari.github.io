@@ -216,7 +216,7 @@ td.catBottom {
 
 /* toolbar */
 
-#fa_toolbar, #fa_toolbar_hidden {
+#fa_toolbar, #fa_toolbar_hidden, see_all {
  background-color: #ff7c0a;
  color: black;
  font-family: 'Comic Sans MS';   
