@@ -221,7 +221,7 @@ td.catBottom {
 }
 
 /* toolbar*/
-#fa_toolbar, #fa_toolbar_hidden {
+#fa_toolbar, #fa_toolbar_hidden, see_all {
   background-color: rgba(255, 255, 255, 0.4);
   color: black;
   font-family: 'Arima';
