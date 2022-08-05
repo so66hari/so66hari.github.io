@@ -222,7 +222,11 @@ td.catBottom {
 
 /* toolbar*/
 #fa_toolbar {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
   color: black;
   font-family: 'Arima';
+}
+
+#fa_menulist, #notif_list {
+    background: linear-gradient(to right, rgba(172, 127, 134, 0.5), rgba(35, 48, 56, 0.5));
 }
