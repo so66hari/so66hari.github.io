@@ -85,7 +85,7 @@ a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink, #fa_toolbar a, #fa
   color: #b78d67;
   text-decoration: none;
   font-weight: bolder;
-  text-shadow: 0 0 2px black;  
+  text-shadow: 1px 1px 2px black;  
 }
 
 a:hover, .forumlink a:hover {
