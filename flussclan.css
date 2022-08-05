@@ -222,7 +222,7 @@ td.catBottom {
 }
 
 /* toolbar */
-#fa_toolbar, #fa_toolbar_hidden, see_all {
+#fa_toolbar, #fa_toolbar_hidden, .see_all {
  background-color: rgba(78, 120, 160, 0.5);
  color: black;
  font-family: 'Cardo';   
