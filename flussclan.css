@@ -223,7 +223,7 @@ td.catBottom {
 
 /* toolbar */
 #fa_toolbar {
- background-color: #4e78a0;
+ background-color: rgba(78, 120, 160, 0.5);
  color: black;
  font-family: 'Cardo';   
 }
