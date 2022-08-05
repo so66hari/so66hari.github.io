@@ -81,7 +81,7 @@ h3 {
 }
 
 /* links */
-a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink {
+a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink, a:hover {
   color: #b78d67;
   text-decoration: none;
   font-weight: bolder;
