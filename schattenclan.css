@@ -11,7 +11,7 @@ body {
 
 hr {
  height: 0;
- border: solid white 0;
+ border: solid #1d1f34 0;
  border-top-width: 1px;
 }
 
@@ -20,11 +20,11 @@ hr {
 }
 
 hr, #chatbox>p, div.separator {
-  border-top: 1px solid #97948f;
+  border-top: 1px solid #1d1f34;
 }
 
 input, #submit_button {
-  background-color: #CCCCCC!important;
+  background-color: #1d1f34!important;
   font-weight: 700;
   border: 1px solid black!important;
   border-radius: 0;
@@ -35,7 +35,7 @@ input, #submit_button {
 }
 
 select, .sceditor-container, div.sceditor-toolbar, textarea, dd.quote, div.spoiler_content {
-  background-color: #CCCCCC!important;
+  background-color: rgba(255, 255, 255, 0.1)!important;
 }
 
 div.nav {
@@ -44,7 +44,7 @@ div.nav {
 
 .codebox dd {
     margin: 0;
-    border: solid 1px #CCCCCC;
+    border: solid 1px #1d1f34;
 }
 
 #wahl {
@@ -77,12 +77,11 @@ h3 {
 a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink, #fa_toolbar a, #fa_toolbar a:visited {
   color: white;
   text-decoration: none;
-  /*text-shadow: 0 0 0;*/
  text-shadow: none;
 }
 
 a:hover, .forumlink a:hover {
- text-shadow: 0 0 8px #000000; 
+ text-shadow: 0 0 8px #FFFFFF; 
 }
 
 a.mainmenu img {
@@ -93,9 +92,9 @@ a.mainmenu img {
 
 /* Startseite */
 .bodylinewidth {
-  box-shadow: 0px 0px 10px #000000;
-  background: linear-gradient(to bottom, black, #444444);
-  -webkit-box-shadow: 0px 0px 10px #000000;
+  box-shadow: 0px 0px 10px #1d1f34;
+  background: linear-gradient(to bottom, #1d1f34, #000000);
+  -webkit-box-shadow: 0px 0px 10px #1d1f34;
 }
 
 /* Bilder */
@@ -151,7 +150,7 @@ a.mainmenu img {
 /* Kategorie */
 table.forumline {
   margin-bottom: 5px;
-  border: 2px groove silver;
+  border: 2px groove #222222;
   border-collapse: collapse;
   background-color: transparent;
 }
