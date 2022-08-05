@@ -221,3 +221,7 @@ td.catBottom {
  color: black;
  font-family: 'Comic Sans MS';   
 }
+
+#fa_menulist, #notif_list {
+    background-color: #fcff6f;
+}
