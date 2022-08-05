@@ -212,7 +212,7 @@ td.catBottom {
 }
 
 /* toolbar*/
-#fa_toolbar, #fa_toolbar_hidden {
+#fa_toolbar, #fa_toolbar_hidden, see_all {
   background-color: #767676;
   color: black;
   font-family: 'Arial';
