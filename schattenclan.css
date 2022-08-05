@@ -1,6 +1,7 @@
 /* global */
 th, td, p {
     font-family: 'Pangolin', sans-serif;
+    color: #cccccc;
 }
 
 body {
@@ -54,7 +55,7 @@ div.nav {
 /* titles */
 h1, .cattitle {
  display: inline; 
-  color: #CCCCCC;
+  color: #1d1f34;
   font-weight: bold;
 }
 
@@ -65,17 +66,17 @@ h2 {
 }
 
 h3 {
-  color: black;
+  color: #CCCCCC;
   margin: 0px;
 }
 
 .no-reduct {
-  color: black;
+  color: #CCCCCC;
 }
 
 /* links */
 a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink, #fa_toolbar a, #fa_toolbar a:visited {
-  color: white;
+  color: #1d1f34;
   text-decoration: none;
  text-shadow: none;
 }
@@ -150,7 +151,7 @@ a.mainmenu img {
 /* Kategorie */
 table.forumline {
   margin-bottom: 5px;
-  border: 2px groove #222222;
+  border: 3px groove #222222;
   border-collapse: collapse;
   background-color: transparent;
 }
@@ -159,13 +160,13 @@ table.forumline {
   background-color: black;
   height: 25px;
   padding: 2px;
-  color: #CCCCCC;
+  color: #1d1f34;
   text-align: center;
   border-radius: 0;
 }
 
 td.row1, td.row3, td.row2, td.row1 over, td.spaceRow {
-  background-color: #767676;
+  background-color: rgba(255, 255, 255, 0.1);
   padding: 2px 3px;
 }
 
@@ -173,16 +174,16 @@ td.row3.over, td.row3Right {
   padding: 2px 3px;
   vertical-align: middle;
   text-align: center;
-  background-color: #888888;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 td.row3.over:hover {
-  background-color: #767676;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Beiträge */
 div.signature_div {
-  border-top: 1px solid white;
+  border-top: 1px solid #1d1f34;
   margin-top: 20px;
 }
 
@@ -196,7 +197,7 @@ td.catBottom {
 
 /* profile messages */
 #profile-advanced-details .message-header {
-    border-top: 1px solid #888888;
+    border-top: 1px solid #1d1f34;
     padding: 4px;
     margin-bottom: 4px;
 }
@@ -213,11 +214,11 @@ td.catBottom {
 
 /* toolbar*/
 #fa_toolbar, #fa_toolbar_hidden, .see_all {
-  background-color: #767676;
+  background-color: black;
   color: black;
   font-family: 'Arial';
 }
 
 #fa_menulist, #notif_list {
-    background-color: #888888;
+    background-color: #1d1f34;
 }
