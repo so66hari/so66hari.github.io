@@ -217,3 +217,7 @@ td.catBottom {
   color: black;
   font-family: 'Arial';
 }
+
+#fa_menulist, #notif_list {
+    background-color: #888888;
+}
