@@ -213,3 +213,11 @@ td.catBottom {
   border-radius: 5px 5px 5px 5px;
   height: 30px;
 }
+
+/* toolbar */
+
+#fa_toolbar {
+ background-color: #ff7c0a;
+ color: black;
+ fontfamily: 'Comic Sans MS';   
+}
