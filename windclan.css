@@ -261,3 +261,7 @@ body.chatbox {
   color: black;
   font-family: 'Mali';
 }
+
+#fa_menulist, #notif_list {
+    background: linear-gradient(to right, rgba(183, 141, 103, 0.5), rgba(75, 105, 155, 0.5));
+}
