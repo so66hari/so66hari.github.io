@@ -219,3 +219,10 @@ td.catBottom {
   background-color: black;
   color: #CCCCCC;
 }
+
+/* toolbar*/
+#fa_toolbar {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: black;
+  font-family: 'Arima';
+}
