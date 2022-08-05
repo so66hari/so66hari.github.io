@@ -199,6 +199,7 @@ td.row3.over, td.row3Right {
   vertical-align: middle;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 3px #b78d67, 0 0 5px #4b699b;
 }
 
 td.row3.over:hover {
