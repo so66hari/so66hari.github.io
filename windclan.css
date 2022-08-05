@@ -96,6 +96,7 @@ a.mainmenu img {
  height: 30px; 
   margin: 0 5px;
   width: auto;
+  opacity: 0.8;
 }
 
 /* Startseite */
@@ -120,27 +121,27 @@ body {
 } 
 
 #i_icon_mini_faq {
-  content: url('https://i.servimg.com/u/f43/19/81/66/84/faq13.png');
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/faq14.png');
 }
 
 #i_icon_mini_search {
-  content: url('https://i.servimg.com/u/f43/19/81/66/84/suche13.png');
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/such10.png');
 }
 
 #i_icon_mini_members {
-  content: url('https://i82.servimg.com/u/f82/19/75/22/87/mitgl10.png');
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/mitgl14.png');
 }
 
 #i_icon_mini_groups {
-  content: url('https://i.servimg.com/u/f43/19/81/66/84/grp11.png');
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/grp12.png');
 }
 
 #i_icon_mini_profile {
-  content: url('https://i.servimg.com/u/f43/19/81/66/84/profil18.png');
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/profil19.png');
 }
 
 #i_icon_mini_message {
-  content: url('https://i.servimg.com/u/f43/19/81/66/84/pn13.png');
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/pn14.png');
 }
 
 #i_icon_mini_new_message {
@@ -148,15 +149,15 @@ body {
 }
 
 #i_icon_mini_logout {
-  content: url('https://i.servimg.com/u/f43/19/81/66/84/logout17.png');
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/logout18.png');
 }
 
 #i_icon_mini_login {
-  content: url('https://i.servimg.com/u/f43/19/81/66/84/login15.png');
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/login16.png');
 }
 
 #i_icon_mini_register {
-  content: url('https://i.servimg.com/u/f43/19/81/66/84/anm10.png');
+  content: url('https://i43.servimg.com/u/f43/19/81/66/84/regis10.png');
 }
 
 #i_whosonline {
