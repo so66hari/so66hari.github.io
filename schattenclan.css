@@ -39,6 +39,10 @@ select, .sceditor-container, div.sceditor-toolbar, textarea, dd.quote, div.spoil
   background-color: rgba(29, 31, 52, 0.2)!important;
 }
 
+textarea {
+ color: #999999   
+}
+
 div.nav {
  margin: 10px 0; 
 }
