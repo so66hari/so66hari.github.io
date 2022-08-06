@@ -80,7 +80,7 @@ h3 {
 }
 
 .secondarytitle h2, .groups th {
-  background-image: radial-gradient(circle, #46526a, #cccccc);
+  background-image: linear-gradient(to bottom, #46526a, #cccccc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;   
 }
