@@ -177,7 +177,7 @@ table.forumline {
 }
 
 td.row1, td.row3, td.row2, td.row1 over, td.spaceRow {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.07);
   padding: 2px 3px;
 }
 
@@ -189,7 +189,7 @@ td.row3.over, td.row3Right {
 }
 
 td.row3.over:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.07);
 }
 
 /* Beiträge */
