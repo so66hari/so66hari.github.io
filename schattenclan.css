@@ -74,6 +74,17 @@ h3 {
   color: #CCCCCC;
 }
 
+.secondarytitle h2, th {
+  font-variant: small-caps;
+  font-size: 18px;
+}
+
+.secondarytitle h2, .groups th {
+  background-image: linear-gradient(to bottom, #46526a, #3d3d3d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;   
+}
+
 /* links */
 a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink, #fa_toolbar a, #fa_toolbar a:visited {
   color: #46526a;
@@ -204,11 +215,6 @@ td.catBottom {
 
 /* Gruppenlegende */
 .groups {
-  color: #CCCCCC;
-}
-
-.grouptitle {
-  background-color: black;
   color: #CCCCCC;
 }
 
