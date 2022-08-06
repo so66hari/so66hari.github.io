@@ -29,6 +29,7 @@ input, #submit_button {
   font-weight: 700;
   border: 1px solid black!important;
   border-radius: 0;
+  color: #CCCCCC!important;  
 }
 
 .label span, dt span {
