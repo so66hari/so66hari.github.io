@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Caetto's test website</title>
+<title>Caetto's website</title>
 <link rel="stylesheet" href="broken.css">  
 </head>
 <body>
+    <div class="bodylinewidth">
+        
+        <!-- Startseite -->
+        <a href="/index.html">
+            <img id="logo" />
+        </a><br />
+        <h1>Caettos Website</h1>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+        <!-- Navigation -->
+        <div>
+            <a class="mainmenu" href="/search" onclick="showhide(document.getElementById('search_menu')); return false;"><img id="i_icon_mini_search" src="https://2img.net/i/fa/empty.gif" alt="Suchen" title="Suchen" /></a>
+            <a class="mainmenu" href="/faq"><img id="i_icon_mini_faq" src="https://2img.net/i/fa/empty.gif" alt="FAQ" title="FAQ"></a>
+            <a class="mainmenu" href="/memberlist"><img id="i_icon_mini_members" src="https://2img.net/i/fa/empty.gif" alt="Mitglieder" title="Mitglieder"></a>
+            <a class="mainmenu" href="/groups"><img id="i_icon_mini_groups" src="https://2img.net/i/fa/empty.gif" alt="Nutzergruppen" title="Nutzergruppen"></a>
+            <a class="mainmenu" href="/profile?mode=editprofile"><img id="i_icon_mini_profile" src="https://2img.net/i/fa/empty.gif" alt="Profil" title="Profil"></a>
+            <a class="mainmenu" href="/privmsg?folder=inbox" rel="nofollow"><img id="i_icon_mini_message" src="https://2img.net/i/fa/empty.gif"  alt="Nachrichten" title="Nachrichten"></a>
+        </div>
+        
+        <!-- Stylewechsler -->
+        <div id="wahl">
+            <select onchange="changeskin(this.options[this.selectedIndex].value);window.location.reload();">
+                <option value="wert1"> Original </option>
+                <option value="wert2"> NebelClan </option>
+                <option value="wert3"> FlussClan </option>
+                <option value="wert4"> SchattenClan </option>
+                <option value="wert5"> WindClan </option>
+                <option value="wert6"> WolkenClan </option>
+            </select>
+        </div>
 
+        
+    </div>
 </body>
 </html>
