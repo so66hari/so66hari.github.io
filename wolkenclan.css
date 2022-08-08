@@ -92,7 +92,7 @@ a.mainmenu img {
 
 /* Startseite */
 .bodylinewidth {
-  box-shadow: 0px 0px 10px #000000;
+  box-shadow: 0px 0px 10px white;
   background: linear-gradient(to bottom, #ac7f86, #233038);
   -webkit-box-shadow: 0px 0px 10px white;
   opacity: 0.9;
