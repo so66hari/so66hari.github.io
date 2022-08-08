@@ -184,7 +184,8 @@ table.forumline {
 td.row1, td.row3, td.row2, td.row1 over, td.spaceRow {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 2px 3px;
-  box-shadow: 0 0 3px #b78d67, 0 0 5px #4b699b;
+  border-left: #f8bfab;
+  border-right: #f8bfab;
 }
 
 td.row3.over, td.row3Right {
@@ -192,7 +193,8 @@ td.row3.over, td.row3Right {
   vertical-align: middle;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 3px #b78d67, 0 0 5px #4b699b;
+  border-left: #f8bfab;
+  border-right: #f8bfab;
 }
 
 td.row3.over:hover {
@@ -201,14 +203,7 @@ td.row3.over:hover {
 
 /* Beiträge */
 div.signature_div {
-  border-top: 1px solid transparent;
-  border-image: 
-    linear-gradient(
-      to right, 
-      #b78d67, 
-      #4b699b
-    );
-    border-image-slice: 1;
+  border-top: 1px solid #f8bfab;
   margin-top: 20px;
 }
 
@@ -222,38 +217,21 @@ td.catBottom {
 
 /* profile messages */
 #profile-advanced-details .message-header {
-    border-top: 1px solid transparent;
-    border-image: 
-    linear-gradient(
-      to right, 
-      #b78d67, 
-      #4b699b
-    );
-    border-image-slice: 1;
+    border-top: 1px #f8bfab;
     padding: 4px;
     margin-bottom: 4px;
 }
 
 /* Gruppenlegende */
 .groups {
-  color: #4b699b;
-}
-
-.grouptitle {
-  background-color: black;
-  color: #4b699b;
-}
-
-/* Chatbox */
-body.chatbox {
- background-color: linear-gradient(to right, #b78d67, #4b699b)!important;    
+  color: #f8bfab;
 }
 
 /* toolbar*/
 #fa_toolbar, #fa_toolbar_hidden, .see_all {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: pink;
   color: black;
-  font-family: 'Mali';
+  font-family: 'Comic Neue';
 }
 
 #fa_menulist, #notif_list {
