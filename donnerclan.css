@@ -96,7 +96,7 @@ a.mainmenu img {
  height: 40px; 
   margin: 0 5px;
   width: auto;
-  opacity: 0.4;
+  opacity: 0.3;
 }
 
 /* Startseite */
@@ -155,6 +155,7 @@ body {
 }
 
 #i_icon_mini_register {
+  opacity: 0.4;
   content: url('https://i.servimg.com/u/f43/19/81/66/84/anm11.png');
 }
 
