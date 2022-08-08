@@ -219,7 +219,7 @@ td.catBottom {
 
 /* profile messages */
 #profile-advanced-details .message-header {
-    border-top: 1px #f8bfab;
+    border-top: 1px solid #f8bfab;
     padding: 4px;
     margin-bottom: 4px;
 }
