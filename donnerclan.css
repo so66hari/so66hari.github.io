@@ -184,8 +184,8 @@ table.forumline {
 td.row1, td.row3, td.row2, td.row1 over, td.spaceRow {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 2px 3px;
-  border-left: #f8bfab;
-  border-right: #f8bfab;
+  border-left: 1px solid #f8bfab;
+  border-right: 1px solid #f8bfab;
 }
 
 td.row3.over, td.row3Right {
@@ -193,12 +193,14 @@ td.row3.over, td.row3Right {
   vertical-align: middle;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.2);
-  border-left: #f8bfab;
-  border-right: #f8bfab;
+  border-left: 1px solid #f8bfab;
+  border-right: 1px solid #f8bfab;
 }
 
 td.row3.over:hover {
   background-color: rgba(0, 0, 0, 0.2);
+  border-left: 1px solid #f8bfab;
+  border-right: 1px solid #f8bfab;
 }
 
 /* Beiträge */
