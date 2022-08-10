@@ -12,11 +12,7 @@ hr {
 hr, div.separator {
   border-top: 1px solid transparent;
   border-image: 
-    linear-gradient(
-      to right, 
-      #b78d67, 
-      #4b699b
-    );
+    radial-gradient(#b78d67, #172806);
     border-image-slice: 1;
 }
 
@@ -226,7 +222,7 @@ td.catBottom {
 
 /* Gruppenlegende */
 .groups {
- background-image: radial-gradient( #b78d67, #172806);
+ background-image: radial-gradient(#b78d67, #172806);
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;   
 }
