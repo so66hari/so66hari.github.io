@@ -75,21 +75,21 @@ h3 {
 }
 
 .secondarytitle h2 {
- background-image: linear-gradient(to right, #b78d67, #4b699b);
+ background-image: radial( #b78d67, #172806);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;   
 }
 
 /* links */
 a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink, #fa_toolbar a, #fa_toolbar a:visited {
-  color: #b78d67;
+  color: #22291c;
   text-decoration: none;
   font-weight: bolder;
-  text-shadow: 1px 1px 2px black;  
+  text-shadow: 0px 0px 5px #b0817b;  
 }
 
 a:hover, .forumlink a:hover {
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 10px white;
 }
 
 a.mainmenu img {
@@ -231,11 +231,11 @@ td.catBottom {
 
 /* toolbar*/
 #fa_toolbar, #fa_toolbar_hidden, .see_all {
-  background-color: pink;
+  background-color: #172806;
   color: black;
   font-family: 'Comic Neue';
 }
 
 #fa_menulist, #notif_list {
-    background: linear-gradient(to right, rgba(183, 141, 103, 0.5), rgba(75, 105, 155, 0.5));
+    background-color: #37422d;
 }
