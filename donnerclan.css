@@ -222,9 +222,7 @@ td.catBottom {
 
 /* Gruppenlegende */
 .groups {
- background-image: radial-gradient(#b78d67, #172806);
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;   
+ color: #37422d; 
 }
 
 /* toolbar*/
