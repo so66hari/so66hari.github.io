@@ -174,7 +174,7 @@ table.forumline {
   padding: 2px;
   color: #37422d;
   text-align: center;
-  border-radius: 5px 5px 0 0;
+  border-radius: none;
 }
 
 td.row1, td.row3, td.row2, td.row1 over, td.spaceRow {
