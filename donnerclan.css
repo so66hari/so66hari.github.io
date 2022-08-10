@@ -75,7 +75,7 @@ h3 {
 }
 
 .secondarytitle h2 {
- background-image: radial-grading( #b78d67, #172806);
+ background-image: radial-gradient( #b78d67, #172806);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;   
 }
