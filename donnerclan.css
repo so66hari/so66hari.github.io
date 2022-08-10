@@ -226,7 +226,9 @@ td.catBottom {
 
 /* Gruppenlegende */
 .groups {
-  color: #f8bfab;
+ background-image: radial-gradient( #b78d67, #172806);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;   
 }
 
 /* toolbar*/
