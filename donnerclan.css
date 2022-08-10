@@ -49,7 +49,7 @@ div.nav {
 /* titles */
 h1, .cattitle {
  display: inline; 
-  color: #CCCCCC;
+  color: #477915;
   font-weight: bold;
 }
 
@@ -82,14 +82,14 @@ h3 {
 
 /* links */
 a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink, #fa_toolbar a, #fa_toolbar a:visited {
-  color: #22291c;
+  color: #477915;
   text-decoration: none;
   font-weight: bolder;
-  text-shadow: 0 0 3px #b0817b;  
+  text-shadow: 0 0 3px #000;  
 }
 
 a:hover, .forumlink a:hover {
-    text-shadow: 0 0 10px white;
+    text-shadow: 0 0 5px #b0817b;
 }
 
 a.mainmenu img {
