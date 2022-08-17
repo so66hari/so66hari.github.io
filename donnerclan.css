@@ -95,6 +95,10 @@ a.mainmenu img {
   opacity: 0.3;
 }
 
+a.cattitle {
+  text-shadow: none;
+}
+
 /* Startseite */
 .bodylinewidth, #smilies_header select {
   box-shadow: 0px 0px 10px #b0817b;
