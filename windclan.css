@@ -104,7 +104,7 @@ a.cattitle {
 }
 
 /* Startseite */
-.bodylinewidth {
+.bodylinewidth, #smilies_header select {
   box-shadow: 0px 0px 10px #cccccc;
   background: linear-gradient(to right, #b78d67, #4b699b);
   -webkit-box-shadow: 0px 0px 10px #cccccc;
@@ -113,7 +113,7 @@ a.cattitle {
 }
 
 /* Bilder */
-body {
+body, #sce_smilies_body {
   background: url('https://i43.servimg.com/u/f43/19/81/66/84/windcl10.jpg'), #759cc5;
   background-attachment: fixed;
   background-size: 100%;

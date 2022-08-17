@@ -3,7 +3,7 @@ th, td, p {
     font-family: 'Arial', sans-serif;
 }
 
-body {
+body, #sce_smilies_body {
   background: url('https://2img.net/s/t/21/75/98/i_background.jpg'), #888888;
   background-attachment: fixed;
   background-size: 100%;
@@ -92,7 +92,7 @@ a.mainmenu img {
 }
 
 /* Startseite */
-.bodylinewidth {
+.bodylinewidth, #smilies_header select {
   box-shadow: 0px 0px 10px #000000;
   background: linear-gradient(to bottom, black, #444444);
   -webkit-box-shadow: 0px 0px 10px #000000;

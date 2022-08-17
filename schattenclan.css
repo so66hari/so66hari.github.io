@@ -4,7 +4,7 @@ th, td, p {
     color: #999999;
 }
 
-body {
+body, #sce_smilies_body {
   background: url('https://i43.servimg.com/u/f43/19/81/66/84/schatt10.jpg'), #000000;
   background-attachment: fixed;
   background-size: 100%;
@@ -103,7 +103,7 @@ a.mainmenu img {
 }
 
 /* Startseite */
-.bodylinewidth {
+.bodylinewidth, #smilies_header select {
   box-shadow: 0px 0px 10px #46526a;
   background: linear-gradient(to bottom, #1d1f34, #000000);
   -webkit-box-shadow: 0px 0px 10px #46526a;
