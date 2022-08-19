@@ -1,2 +1,2 @@
 # so66hari.github.io
-just css sheets for a forum
+personal training place for CSS, HTML, typescript.
