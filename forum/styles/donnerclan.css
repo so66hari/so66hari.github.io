@@ -16,7 +16,7 @@ hr, div.separator {
     border-image-slice: 1;
 }
 
-input, #submit_button {
+input, #submit_button, #pre, #next {
   background-color: rgba(0, 0, 0, 0.1)!important;
   font-weight: 700;
 }
