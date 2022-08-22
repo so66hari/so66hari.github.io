@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@500&family=Comic+Neue&family=Mali&family=PT+Mono&family=Pangolin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Splash&family=Yomogi&display=swap');
 
+/* main object */
 .bodylinewidth {
     width: 55%;
     text-align: center;
@@ -8,6 +9,47 @@
     margin: auto;
 }
 
+/* section general */
 .forumline {
     width: 100%;
 }
+
+/* header table */
+#headgen, #headrpg, #headkdc {
+    flex-shrink: 0;
+    width: 100%;
+    margin-right: 0px;
+    box-sizing: border-box;
+    transform-origin: center center;
+    transform: scale(1);
+    scroll-snap-align: center;
+  }
+  
+  #pre, #next {
+    height: 100%!important;
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #pre h2, #next h2 {
+    font-size: 50px; 
+  }
+  
+  #pre {
+    left: 0;
+  }
+  
+  #next {
+    right: 0;
+  }
+  
+  #slider {
+   display: flex;
+   overflow-x: hidden;
+   position: relative;
+   scroll-behavior: smooth;
+   scroll-snap-type: x mandatory;
+  }
