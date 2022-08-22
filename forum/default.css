@@ -3,4 +3,10 @@
 
 .bodylinewidth {
     width: 55%;
+    text-align: center;
+    padding: 5%;
+}
+
+.forumline {
+    width: 100%;
 }
