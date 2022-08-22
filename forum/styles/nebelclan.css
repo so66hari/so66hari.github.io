@@ -23,7 +23,7 @@ hr, #chatbox>p, div.separator {
   border-top: 1px solid #97948f;
 }
 
-input, #submit_button, #pre, #next {
+input, #submit_button {
   background-color: #CCCCCC!important;
   font-weight: 700;
   border: 1px solid black!important;
