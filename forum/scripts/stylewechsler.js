@@ -4,28 +4,28 @@ wahl.innerHTML ='<select onchange="changeskin(this.options[this.selectedIndex].v
         
 switch(type) {
     case 'wert1':
-        document.write('<link rel="stylesheet" type="text/css" href="../styles/original.css">');
+        document.write('<link rel="stylesheet" type="text/css" href="styles/original.css">');
         break;
     case 'wert2':
-        document.write('<link rel="stylesheet" type="text/css" href="../styles/nebelclan.css">'); 
+        document.write('<link rel="stylesheet" type="text/css" href="styles/nebelclan.css">'); 
        break; 
     case 'wert3':
-        document.write('<link rel="stylesheet" type="text/css" href="../styles/donnerclan.css">');
+        document.write('<link rel="stylesheet" type="text/css" href="styles/donnerclan.css">');
         break;    
     case 'wert4':
-        document.write('<link rel="stylesheet" type="text/css" href="../styles/flussclan.css">');
+        document.write('<link rel="stylesheet" type="text/css" href="styles/flussclan.css">');
         break;
     case 'wert5':
-        document.write('<link rel="stylesheet" type="text/css" href="../styles/schattenclan.css">');
+        document.write('<link rel="stylesheet" type="text/css" href="styles/schattenclan.css">');
         break;
     case 'wert6': 
-        document.write('<link rel="stylesheet" type="text/css" href="../styles/windclan.css">');
+        document.write('<link rel="stylesheet" type="text/css" href="styles/windclan.css">');
         break;
     case 'wert7':
-        document.write('<link rel="stylesheet" type="text/css" href="../styles/wolkenclan.css">');
+        document.write('<link rel="stylesheet" type="text/css" href="styles/wolkenclan.css">');
         break;
     default:
-        document.write('<link rel="stylesheet" type="text/css" href="../styles/original.css">');
+        document.write('<link rel="stylesheet" type="text/css" href="styles/original.css">');
 }
 
 function changeskin(change) {
