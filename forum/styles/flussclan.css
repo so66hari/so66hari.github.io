@@ -159,7 +159,7 @@ table.forumline {
   border: none;  
 }
 
-.forumline th, #grouptitle, .catHead, td.catLeft {
+.forumline th, #grouptitle, .catHead, td.catLeft, #pre, #next {
   background-color: #3d393a;
   height: 25px;
   padding: 2px;

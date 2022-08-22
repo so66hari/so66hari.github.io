@@ -83,6 +83,7 @@ h3 {
 .secondarytitle h2, .groups th {
   background-image: linear-gradient(to bottom, #46526a, #cccccc);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;   
 }
 
@@ -167,7 +168,7 @@ table.forumline {
   background-color: transparent;
 }
 
-.forumline th, #grouptitle, .catHead, td.catLeft {
+.forumline th, #grouptitle, .catHead, td.catLeft, #pre, #next {
   background-color: black;
   height: 25px;
   padding: 2px;

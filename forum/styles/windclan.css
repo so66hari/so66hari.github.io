@@ -77,6 +77,7 @@ h3 {
 .secondarytitle h2 {
  background-image: linear-gradient(to right, #b78d67, #4b699b);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;   
 }
 
@@ -183,7 +184,7 @@ table.forumline {
     border-image-slice: 1; 
 }
 
-.forumline th, #grouptitle, .catHead, td.catLeft {
+.forumline th, #grouptitle, .catHead, td.catLeft, #pre, #next {
   background-color: rgba(0, 0, 0, 0.5);
   height: 25px;
   padding: 2px;

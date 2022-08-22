@@ -16,7 +16,7 @@ hr, div.separator {
     border-image-slice: 1;
 }
 
-input, #submit_button, #pre, #next {
+input, #submit_button {
   background-color: rgba(0, 0, 0, 0.1)!important;
   font-weight: 700;
 }
@@ -173,7 +173,7 @@ table.forumline {
   box-shadow: 0 0 10px #b0817b;
 }
 
-.forumline th, #grouptitle, .catHead, td.catLeft {
+.forumline th, #grouptitle, .catHead, td.catLeft, #pre, #next {
   background-color: rgba(0, 0, 0, 0.5);
   height: 25px;
   padding: 2px;
