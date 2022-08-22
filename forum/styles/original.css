@@ -198,24 +198,12 @@ td.catBottom {
 /* Gruppenlegende */
 .groups {
  text-align: center;
-  font-size: 18px;
   margin: 20px 0px;
   color: #c70000;
   font-weight: bold;
 }
 
-.grouptitle {
- display: flex;
-  vertical-align: middle;
-  align-items: center;
-  justify-content: center;
-  background-color: #fcff6f;
-  border-radius: 5px 5px 5px 5px;
-  height: 30px;
-}
-
 /* toolbar */
-
 #fa_toolbar, #fa_toolbar_hidden, .see_all {
  background-color: #ff7c0a;
  color: black;
