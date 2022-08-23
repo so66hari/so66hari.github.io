@@ -70,6 +70,7 @@
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   height: 300px;
+  padding: 0 5px;
 }
 
 #accordion label + input[type="radio"] {
@@ -83,5 +84,5 @@
 }
 
 #accordion label + input[type="radio"]:checked + .headcontent {
-  max-width: 800px;
+  max-width: 1000px;
 }
