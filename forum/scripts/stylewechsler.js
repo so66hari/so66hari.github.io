@@ -64,3 +64,8 @@ function setCookie(name, value, expires, path, domain, secure) {
     ((domain == null) ? "" : "; domain=" + domain) +
     ((secure == null) ? "" : "; secure");
 }
+
+function reloadIframe() {
+    target=window.parent.frames["vorstellung"]; 
+    target.location=target.location; 
+    }
