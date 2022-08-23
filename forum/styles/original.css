@@ -50,6 +50,8 @@ h1, .cattitle {
 h2 {
   display: inline; 
   margin: 2px;
+  color: #c70000;
+  font-size: 1.2em;
 }
 
 h3 {
@@ -143,7 +145,7 @@ table.forumline {
   background-color: transparent;
 }
 
-.forumline th, #grouptitle, .catHead, td.catLeft, #pre, #next {
+.forumline th, #grouptitle, .catHead, td.catLeft, #pre, #next, .headButtons {
   -moz-border-radius:5px 5px 5px 5px;
   -webkit-border-radius: 5px 5px 5px 5px;
   border-radius: 5px;

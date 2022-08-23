@@ -55,7 +55,8 @@ h1, .cattitle {
 h2 {
   display: inline; 
   margin: 2px;
-  color: #CCCCCC
+  color: #CCCCCC;
+  font-size: 1.2em;
 }
 
 h3 {
@@ -67,7 +68,7 @@ h3 {
   color: black;
 }
 
-.secondarytitle h2, th {
+.secondarytitle h2, th, .headButtons h2 {
   font-variant: small-caps;
   font-size: 18px;
 }
@@ -163,7 +164,7 @@ table.forumline {
  border: none;
 }
 
-.forumline th, #grouptitle, .catHead, td.catLeft, #pre, #next {
+.forumline th, #grouptitle, .catHead, td.catLeft, #pre, #next, .headButtons {
   -moz-border-radius:10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
   border-radius: 10px;

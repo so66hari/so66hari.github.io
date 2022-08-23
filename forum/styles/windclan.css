@@ -57,7 +57,7 @@ h2 {
   display: inline; 
   margin: 2px;
   color: #4b699b;
-  font-size: 1em;  
+  font-size: 1.2em;  
 }
 
 h3 {
@@ -74,7 +74,7 @@ h3 {
   font-size: 18px;
 }
 
-.secondarytitle h2 {
+.secondarytitle h2, .headButtons h2 {
  background-image: linear-gradient(to right, #b78d67, #4b699b);
   -webkit-background-clip: text;
   background-clip: text;
@@ -184,7 +184,7 @@ table.forumline {
     border-image-slice: 1; 
 }
 
-.forumline th, #grouptitle, .catHead, td.catLeft, #pre, #next {
+.forumline th, #grouptitle, .catHead, td.catLeft, #pre, #next, .headButtons {
   background-color: rgba(0, 0, 0, 0.5);
   height: 25px;
   padding: 2px;

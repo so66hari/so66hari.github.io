@@ -64,7 +64,8 @@ h1, .cattitle {
 h2 {
   display: inline; 
   margin: 2px;
-  color: #CCCCCC
+  color: #999999;
+  font-size: 1.2em;
 }
 
 h3 {
@@ -80,7 +81,7 @@ h3 {
   font-size: 18px;
 }
 
-.secondarytitle h2, .groups th {
+.secondarytitle h2, .groups th, .headButtons h2 {
   background-image: linear-gradient(to bottom, #46526a, #cccccc);
   -webkit-background-clip: text;
   background-clip: text;
@@ -168,7 +169,7 @@ table.forumline {
   background-color: transparent;
 }
 
-.forumline th, #grouptitle, .catHead, td.catLeft, #pre, #next {
+.forumline th, .catHead, td.catLeft, #pre, #next, .headButtons {
   background-color: black;
   height: 25px;
   padding: 2px;

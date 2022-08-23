@@ -61,7 +61,8 @@ h1, .cattitle {
 h2 {
   display: inline; 
   margin: 2px;
-  color: #CCCCCC
+  color: #CCCCCC;
+  font-size: 1.2em;
 }
 
 h3 {
@@ -157,7 +158,7 @@ table.forumline {
   background-color: transparent;
 }
 
-.forumline th, #grouptitle, .catHead, td.catLeft, #pre, #next {
+.forumline th, #grouptitle, .catHead, td.catLeft, #pre, #next, .headButtons {
   background-color: black;
   height: 25px;
   padding: 2px;
