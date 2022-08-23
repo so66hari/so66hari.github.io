@@ -62,3 +62,9 @@
 .headtable {
   margin: auto;
 }
+
+#accordion label {
+  cursor: pointer;
+  float: right;
+  transform: rotate(90deg);
+}
