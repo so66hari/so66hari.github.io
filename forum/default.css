@@ -81,7 +81,8 @@
   max-width: 0;
   overflow: hidden;
   transition: max-width 0.5s;
-  height: 275px;
+  height: 271px;
+  padding: 2px;
 }
 
 #accordion label + input[type="radio"]:checked + .headcontent {
