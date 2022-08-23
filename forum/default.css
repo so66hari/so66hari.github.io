@@ -55,10 +55,10 @@
   }
 
   /* header table 2 */
-#accordion {
-  text-align: center;
-}
-
 #accordion li{
   list-style: none;
+}
+
+.headtable {
+  margin: auto;
 }
