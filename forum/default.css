@@ -59,6 +59,7 @@
 /* header table 2 */
 #accordion {
   text-align: center;
+  padding: 0;
 }
 
 #accordion li{
@@ -85,8 +86,37 @@
   transition: max-width 0.5s;
   height: 271px;
   padding: 2px;
+  margin: auto;
 }
 
 #accordion label + input[type="radio"]:checked + .headcontent {
   max-width: 700px;
+}
+
+@media screen and (max-width: 1919px) {
+  #accordion li {
+    list-style: none;
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  #accordion label {
+    writing-mode: unset;
+    transform: rotate(0);
+    height: max-content;
+    width: 100%;
+    padding: 5px 0;
+  }
+
+  #accordion .headcontent {
+    max-width: 100%;
+    max-height: 0px;
+    transition: max-height 0.5s;
+    margin: auto;
+  }
+
+  #accordion label + input[type="radio"]:checked + .headcontent {
+    max-height: 275px;
+  }
 }

@@ -167,7 +167,7 @@ table.forumline {
   border-radius: 0;
 }
 
-td.row1, td.row3, td.row2, td.row1 over, td.spaceRow, #topiclineNC > div {
+td.row1, td.row3, td.row2, td.row1 over, td.spaceRow, #topiclineNC div {
   background-color: #767676;
   padding: 2px 3px;
 }
