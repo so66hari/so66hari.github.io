@@ -15,7 +15,7 @@
 }
 
 /* header table */
-#headgen, #headrpg, #headkdc {
+  #headgen, #headrpg, #headkdc {
     flex-shrink: 0;
     width: 100%;
     margin-right: 0px;
@@ -54,9 +54,14 @@
    scroll-snap-type: x mandatory;
   }
 
-  /* header table 2 */
+/* header table 2 */
+#accordion {
+  text-align: center;
+}
+
 #accordion li{
   list-style: none;
+  float: left;
 }
 
 .headtable {
@@ -67,8 +72,19 @@
   cursor: pointer;
   float: right;
   transform: rotate(-90deg);
+  height: max-content;
 }
 
 #accordion label + input[type="radio"] {
   display: none;
+}
+
+#accordion .headcontent {
+  max-width: 0;
+  overflow: hidden;
+  transition: max-width 0.5s;
+}
+
+#accordion label + input[type="radio"]:checked + .headcontent {
+  max-width: fit-content;
 }
