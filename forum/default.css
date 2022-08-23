@@ -64,10 +64,6 @@
   float: left;
 }
 
-.headtable {
-  margin: auto;
-}
-
 #accordion label {
   cursor: pointer;
   float: right;
@@ -87,5 +83,5 @@
 }
 
 #accordion label + input[type="radio"]:checked + .headcontent {
-  max-width: fit-content;
+  max-width: 800px;
 }
