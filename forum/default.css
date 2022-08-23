@@ -8,6 +8,7 @@
     padding: 0.75%;
     margin: auto;
     font-size: 14px;
+    line-height: 18px;
 }
 
 /* section general */
@@ -87,5 +88,5 @@
 }
 
 #accordion label + input[type="radio"]:checked + .headcontent {
-  max-width: 1000px;
+  max-width: 700px;
 }
