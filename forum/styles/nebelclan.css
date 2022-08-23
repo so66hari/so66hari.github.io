@@ -158,7 +158,7 @@ table.forumline {
   background-color: transparent;
 }
 
-.forumline th, #grouptitle, .catHead, td.catLeft, #pre, #next, .headButtons {
+.forumline th, .catHead, td.catLeft, #pre, #next, .headButtons {
   background-color: black;
   height: 25px;
   padding: 2px;
