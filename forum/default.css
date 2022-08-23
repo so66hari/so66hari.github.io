@@ -53,3 +53,11 @@
    scroll-behavior: smooth;
    scroll-snap-type: x mandatory;
   }
+
+  /* header table 2 */
+#accordion li{
+  list-style: none;
+}
+.headcontent {
+  margin: auto;
+}
