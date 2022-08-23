@@ -66,5 +66,9 @@
 #accordion label {
   cursor: pointer;
   float: right;
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
+}
+
+#accordion label + input[type="radio"] {
+  display: none;
 }
