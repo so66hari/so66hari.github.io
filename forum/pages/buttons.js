@@ -11,7 +11,7 @@ function changeStyle(input) {
 
     switch (input) {
         case 0:
-            background.style = "background-attachment: fixed; background-size: cover; background: url('https://2img.net/s/t/21/75/98/i_background.jpg'), #888888";
+            background.style = "background: url('https://2img.net/s/t/21/75/98/i_background.jpg'), #888888; background-attachment: fixed; background-size: cover;";
             bodyline.style = "box-shadow: 0px 0px 10px #000000; background: linear-gradient(to bottom, black, #444444); -webkit-box-shadow: 0px 0px 10px #000000; opacity: 0.8; font-family: 'Arial', sans-serif;";
             header.style = "content: url('https://cdn.discordapp.com/attachments/427137355976146951/1004510858128404560/header.png')";
             for(let i = 0; i < button.length; i++) {button[i].className = "ncbutton";}
@@ -23,7 +23,7 @@ function changeStyle(input) {
             break;
 
         case 1:
-            background.style = "background-attachment: fixed; background-size: cover; background: url('https://i43.servimg.com/u/f43/19/81/66/84/windcl10.jpg'), #759cc5;";
+            background.style = "background: url('https://i43.servimg.com/u/f43/19/81/66/84/windcl10.jpg'), #759cc5; background-attachment: fixed; background-size: cover;";
             bodyline.style = "box-shadow: 0px 0px 10px #cccccc; background: linear-gradient(to right, #b78d67, #4b699b); -webkit-box-shadow: 0px 0px 10px #cccccc; border-top-left-radius: 300px 50px; border-top-right-radius: 300px 50px; opacity: 1; font-family: 'Mali', sans-serif";
             header.style = "content: url('https://cdn.discordapp.com/attachments/427137355976146951/1004858072776314880/windclanhd.png');";
             for(let i = 0; i < button.length; i++) {button[i].className = "wcbutton";}
@@ -35,7 +35,7 @@ function changeStyle(input) {
             break;
 
         case 2:
-            background.style = "background-attachment: fixed; background-size: cover; background: url('https://i43.servimg.com/u/f43/19/81/66/84/schatt10.jpg'), #000000;";
+            background.style = "background: url('https://i43.servimg.com/u/f43/19/81/66/84/schatt10.jpg'), #000000; background-attachment: fixed; background-size: cover;";
             bodyline.style = "  box-shadow: 0px 0px 10px #46526a; background: linear-gradient(to bottom, #1d1f34, #000000); -webkit-box-shadow: 0px 0px 10px #46526a; opacity: 1; font-family: 'Pangolin', sans-serif;";
             header.style = "content: url('https://cdn.discordapp.com/attachments/999805372074307614/1005277339669778493/head2.png');";
             for(let i = 0; i < button.length; i++) {button[i].className = "scbutton";}
@@ -47,7 +47,7 @@ function changeStyle(input) {
             break;   
          
         default:
-            background.style = "background-attachment: fixed; background-size: cover; background: url('https://2img.net/s/t/21/75/98/i_background.jpg'), #888888";
+            background.style = "background: url('https://2img.net/s/t/21/75/98/i_background.jpg'), #888888; background-attachment: fixed; background-size: cover;";
             bodyline.style = "box-shadow: 0px 0px 10px #000000; background: linear-gradient(to bottom, black, #444444); -webkit-box-shadow: 0px 0px 10px #000000; opacity: 0.8; font-family: 'Arial', sans-serif;";
             header.style = "content: url('https://cdn.discordapp.com/attachments/427137355976146951/1004510858128404560/header.png')";   
             for(let i = 0; i < button.length; i++) {button[i].className = "ncbutton";}          
