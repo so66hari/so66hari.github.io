@@ -3,10 +3,12 @@
     <meta charset="UTF-8">
     <style type="text/css">
         td {font-size: 14px;} 
-        h2 {font-size: 1.2em;} 
-        #bodyline {margin:auto;} 
-        body {background-attachment: fixed; background-size: 100%;} 
-        #i_logo {width: 100%}
+        h2 {font-size: 18px; margin:0} 
+        body {background-attachment: fixed; background-size: 100%; background: url('https://2img.net/s/t/21/75/98/i_background.jpg'), #888888} 
+        #i_logo {width: 100%; content: url('https://cdn.discordapp.com/attachments/427137355976146951/1004510858128404560/header.png')}
+        div {width: 90%; margin: auto}
+        #bodyline {box-shadow: 0px 0px 10px #000000; background: linear-gradient(to bottom, black, #444444); -webkit-box-shadow: 0px 0px 10px #000000; opacity: 0.8;}
+
         .nctable {margin-bottom: 5px; border: 2px groove silver; border-collapse: collapse; background-color: transparent;} 
         .ncth {background-color: black; height: 25px; padding: 2px; color: #CCCCCC; text-align: center; border-radius: 0;}
         .nch2 {display: inline;  margin: 2px; color: #CCCCCC}
@@ -21,25 +23,26 @@
 
         .sctable {margin-bottom: 5px;border: 3px groove #46526a; border-collapse: collapse;background-color: transparent;}
         .scth {background-color: black; height: 25px; padding: 2px; color: #46526a; text-align: center;border-radius: 0;}
-        .sch2 {background-image: linear-gradient(to bottom, #46526a, #cccccc); -webkit-background-clip: text; background-clip: text;  -webkit-text-fill-color: transparent;}
+        .sch2 {background-image: linear-gradient(to bottom, #46526a, #cccccc); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
         .sctd {color: #999999; background-color: rgba(255, 255, 255, 0.07); padding: 2px 3px;}
         .sca {color: #46526a;text-decoration: none; text-shadow: none}
     </style>
 </head>
 
 <body>
-    <div id="bodyline" style="width: 90%">
+    <div id="bodyline">
         <img id="i_logo" /><br />
         <button onclick="changeStyle(0)">NebelClan</button><button onclick="changeStyle(1)">WindClan</button><button onclick="changeStyle(2)" >SchattenClan</button><br />
         <script type=text/javascript src="buttons.js"></script>
-        <table>
+
+        <table class="nctable">
             <tr>
-                <th>
-                    <h2>Hallo Einzelläufer!</h2>
+                <th class="ncth">
+                    <h2 class="nch2">Hallo Einzelläufer!</h2>
                 </th>
             </tr>
             <tr>
-                <td class="row1">Ich bin heute zu dir getreten, um dich dem NebelClan vorzustellen.
+                <td class="nctd">Ich bin heute zu dir getreten, um dich dem NebelClan vorzustellen.
                     Bereits 2010 unter der Führung von Sonnenschweif fanden sich viele Krieger und
                     Heiler zusammen, um sich über die Bücher zu unterhalten, für ihren Clan zu
                     kämpfen und eigene Abenteuer zu erleben. <br />
@@ -55,14 +58,14 @@
             </tr>
         </table>
         <br />
-        <table>
+        <table class="nctable">
             <tr>
-                <th>
-                    <h2>Kampf der Clans</h2>
+                <th class="ncth">
+                    <h2 class="nch2">Kampf der Clans</h2>
                 </th>
             </tr>
             <tr>
-                <td class="row1">Regelmäßig startet bei uns der große Kampf der Clans, wo die
+                <td class="nctd">Regelmäßig startet bei uns der große Kampf der Clans, wo die
                     Krieger und Heiler der fünf Clans ihr Wissen und Können auf die Probe stellen.
                     Jeder kann jederzeit mitmachen und für seinen Clan in
                     <strong>Wettbewerben</strong> oder <strong>Wissensquizzen</strong> Punkte
@@ -71,14 +74,14 @@
             </tr>
         </table>
         <br />
-        <table>
+        <table class="nctable">
             <tr>
-                <th>
-                    <h2>RPG</h2>
+                <th class="ncth">
+                    <h2 class="nch2">RPG</h2>
                 </th>
             </tr>
             <tr>
-                <td class="row1">Unser neustes Warrior Cats-RPG steht noch in den Startlöchern;
+                <td class="nctd">Unser neustes Warrior Cats-RPG steht noch in den Startlöchern;
                     bereit, jederzeit zu starten. Wichtige Positionen sind noch unbesetzt, aber dank
                     des <strong>Szenen-RPG</strong>-Konzepts können schon kleinere Plots zwischen
                     den Charakteren bespielt werden. <br />
@@ -89,14 +92,14 @@
             </tr>
         </table>
         <br />
-        <table>
+        <table class="nctable">
             <tr>
-                <th>
-                    <h2>Interesse, vorbeizuschauen?</h2>
+                <th class="ncth">
+                    <h2 class="nch2">Interesse, vorbeizuschauen?</h2>
                 </th>
             </tr>
             <tr>
-                <td class="row1">Wenn es dich jetzt in den Pfoten kribbelt, lieber Einzelläufer,
+                <td class="nctd">Wenn es dich jetzt in den Pfoten kribbelt, lieber Einzelläufer,
                     schau doch gern einmal bei uns vorbei! Jeden Sonntag um 18Uhr treffen sich
                     unsere Mitglieder in der Chatbox, um etwas zu plaudern oder Games zu spielen. <br />
                     Auch wir haben Interesse an anderen Foren und Communities und würden uns daher
@@ -105,17 +108,17 @@
             </tr>
         </table>
         <br />
-        <table width="100%">
+        <table class="nctable" width="100%">
             <tr>
-                <th>
-                    <h2>Links</h2>
+                <th class="ncth">
+                    <h2 class="nch2">Links</h2>
                 </th>
-                <th>
-                    <h2>Banner</h2>
+                <th class="ncth">
+                    <h2 class="nch2">Banner</h2>
                 </th>
             </tr>
             <tr>
-                <td class="row1" style="width:40%">
+                <td class="nctd" style="width:40%">
                     <p><a href="https://warrior-cats.forumieren.de">»
                         Zum Forum «</a></p>
                     <p><a href="https://warrior-cats.forumieren.de/c8-world-wide-web">» Partnerschaft
@@ -126,7 +129,7 @@
                     <p><a href="https://warrior-cats.forumieren.de/c9-kampf-der-clans">» Kampf der
                         Clans «</a></p>
                 </td>
-                <td class="row1" style="width:60%; text-align: center"><a
+                <td class="nctd" style="width:60%; text-align: center"><a
                         href="https://warrior-cats.forumieren.de"><img
                             src="https://i.servimg.com/u/f43/19/81/66/84/banner10.png" /></a></p>
                     <b>Code:</b><br />
