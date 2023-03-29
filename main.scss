@@ -13,12 +13,14 @@
 body {
   background-color: var(--main_dark);
   font-family: 'Courier New', Courier, monospace;
+  margin: 0;
 }
 
 #background {
   background-color: var(--accentDark);
   opacity: 0.2;
   size: 100%;
+  padding: 5px;
 }
 
 #footer {
