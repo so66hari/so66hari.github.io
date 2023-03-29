@@ -14,13 +14,21 @@ body {
   background-color: var(--main_dark);
   font-family: 'Courier New', Courier, monospace;
   margin: 0;
+  color: var(--font_dark);
+  font-size: 14px;
 }
 
 #background {
   background-color: var(--accentDark);
   opacity: 0.33;
-  size: 100%;
+  width: inherit;
+  height: inherit;
   padding: 5px;
+}
+
+#info {
+  margin: auto;
+  font-size: 5em;
 }
 
 #footer {
