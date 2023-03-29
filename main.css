@@ -1,8 +1,8 @@
 /* root */ 
 :root
  {
-  --main_light: #d9d9d9;
-  --main_dark: #434343;
+  --main_light: #fafafa;
+  --main_dark: #1c1c1c;
   --font_light: #262626;
   --font_dark: #e9e9e9;
   --accent:  #4527a0;
@@ -12,7 +12,7 @@
 
 body {
   background-color: var(--main_dark);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Trebuchet MS', 'Roboto', 'Courier New', Courier, monospace;
   margin: 0;
   color: var(--font_dark);
   font-size: 14px;
@@ -20,7 +20,7 @@ body {
 
 #background {
   background-color: var(--accentDark);
-  opacity: 0.33;
+  opacity: 0.2;
   width: inherit;
   height: inherit;
   padding: 5px;
