@@ -1,18 +1,21 @@
 /* root */ 
 :root
  {
-  --main: #fff;
-  --second: #bfbfbf;
-  --font: #1a1a1a;
-  --fontLighter: #333333;
-  --accent:  #8080ff;
-  --accentDark: #4d4dff;
-  --accentLight: #b3b3ff;
+  --main_light: #fff;
+  --main_dark: #000;
+  --font_light: #262626;
+  --font_dark: #e9e9e9;
+  --accent:  #4527a0;
+  --accentDark: #301b70;
+  --accentLight: #6a52b3;
 }
 
 body {
-  background: url(https://i.servimg.com/u/f43/19/81/66/84/hinter10.jpg), var(--second);
-  background-attachment: fixed;
-  background-size: 100%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: --main_dark;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#background {
+  background-color: var(--accentDark);
+  opacity: 0.2;
 }
