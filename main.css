@@ -32,3 +32,12 @@ body {
   height: fit-content;
   padding: 10px;
 }
+
+#footer img {
+  height: 50%;
+  width: auto;
+}
+
+#footer p {
+  margin: auto;
+}
