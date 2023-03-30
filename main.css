@@ -43,3 +43,7 @@ body {
   padding: 50% 0;
   display: inline;
 }
+
+#footer th {
+  vertical-align: middle;
+}
