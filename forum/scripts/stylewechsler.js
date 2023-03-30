@@ -1,6 +1,6 @@
 var type = getCookie('Vorlage1');
 var wahl = document.getElementById('wahl');
-wahl.innerHTML ='<select onchange="changeskin(this.options[this.selectedIndex].value);window.location.reload();"><option>Wähle einen Style</option><option value="wert1"> Original </option><option value="wert2"> NebelClan </option><option value="wert3"> DonnerClan </option><option value="wert4"> FlussClan </option><option value="wert5"> SchattenClan </option><option value="wert6"> WindClan </option><option value="wert7"> WolkenClan </option><option value="wert3"> FlÜgElPlAtIn </option></select>';
+wahl.innerHTML ='<select onchange="changeskin(this.options[this.selectedIndex].value);window.location.reload();"><option>Wähle einen Style</option><option value="wert1"> Original </option><option value="wert2"> NebelClan </option><option value="wert3"> DonnerClan </option><option value="wert4"> FlussClan </option><option value="wert5"> SchattenClan </option><option value="wert6"> WindClan </option><option value="wert7"> WolkenClan </option><option value="wert8"> FlÜgElPlAtIn </option></select>';
 
 /* css sheets */
 switch(type) {
