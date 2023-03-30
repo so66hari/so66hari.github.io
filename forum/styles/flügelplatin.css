@@ -1,0 +1,242 @@
+/* global */
+th, td, p, button {
+    font-family: 'Comic Neue', sans-serif;
+}
+
+hr {
+ height: 0;
+ border: dotted #689bc6 0;
+ border-top-width: 1px;
+}
+
+hr, div.separator {
+  border-top: 1px solid transparent;
+  border-image: 
+    radial-gradient(#b78d67, #172806);
+    border-image-slice: 1;
+}
+
+input, #submit_button {
+  background-color: rgba(0, 0, 0, 0.1)!important;
+  font-weight: 700;
+}
+
+.label span, dt span {
+ color: #000!important; 
+}
+
+select, .sceditor-container, div.sceditor-toolbar, textarea, dd.quote, div.spoiler_content {
+  background-color: rgba(0, 0, 0, 0.1)!important;
+}
+
+div.nav {
+ margin: 10px 0; 
+}
+
+.codebox dd {
+    margin: 0;
+    border: solid 1px #3e3a3b;
+}
+
+#wahl {
+ margin-top: 50px;
+}
+
+/* titles */
+h1, .cattitle {
+ display: inline; 
+  color: #477915;
+  font-weight: bold;
+}
+
+h2 {
+  display: inline; 
+  margin: 2px;
+  color: #b78d67;
+  font-size: 1.2em;  
+}
+
+h3 {
+  color: black;
+  margin: 0px;
+}
+
+.no-reduct {
+  color: black;
+}
+
+.secondarytitle h2, th {
+  font-variant: small-caps;
+  font-size: 18px;
+}
+
+.secondarytitle h2, .headButtons h2 {
+ background-image: radial-gradient( #b78d67, #172806);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;   
+}
+
+/* links */
+a, .forumlink a, a.forumlink:link, a.topictitle, a.forumlink, #fa_toolbar a, #fa_toolbar a:visited, .forumlink {
+  color: #477915;
+  text-decoration: none;
+  font-weight: bolder;
+  text-shadow: 0 0 3px #000;  
+}
+
+a:hover, .forumlink a:hover {
+    text-shadow: 0 0 5px #b0817b;
+}
+
+a.mainmenu img {
+ height: 40px; 
+  margin: 0 5px;
+  width: auto;
+  opacity: 0.3;
+}
+
+a.cattitle {
+  text-shadow: none;
+}
+
+/* Startseite */
+.bodylinewidth, #smilies_header select {
+  box-shadow: 0px 0px 10px #b0817b;
+  background-color: #172806;
+  -webkit-box-shadow: 0px 0px 10px #b0817b;
+}
+
+/* Bilder */
+body, #sce_smilies_body {
+  background: url('https://i.servimg.com/u/f43/19/81/66/84/donner10.jpg'), #5b5d76;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+#i_logo {
+ content: url('https://cdn.discordapp.com/attachments/792392930727165952/1006313094894604428/dch2.png'); 
+  width: 100%;
+} 
+
+#i_icon_mini_faq {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/faq16.png');
+}
+
+#i_icon_mini_search {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/such11.png');
+}
+
+#i_icon_mini_members {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/mitgl16.png');
+}
+
+#i_icon_mini_groups {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/grp13.png');
+}
+
+#i_icon_mini_profile {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/profil21.png');
+}
+
+#i_icon_mini_message {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/pn16.png');
+}
+
+#i_icon_mini_new_message {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/output13.gif');
+}
+
+#i_icon_mini_logout {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/logout20.png');
+}
+
+#i_icon_mini_login {
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/login18.png');
+}
+
+#i_icon_mini_register {
+  opacity: 0.4;
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/anm11.png');
+}
+
+#i_whosonline {
+ content: url("https://2img.net/s/t/21/55/71/i_whosonline.gif"); 
+}
+
+/* Kategorie */
+table.forumline {
+  margin: 5px 0;
+  border-collapse: collapse;
+  border: 1px solid #f8bfab;
+  background-color: rgba(255, 255, 255, 0.2); 
+  box-shadow: 0 0 10px #b0817b;
+}
+
+.forumline th, #grouptitle, .catHead, td.catLeft, #pre, #next, .headButtons {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 25px;
+  padding: 2px;
+  color: #37422d;
+  text-align: center;
+  border-radius: none;
+}
+
+td.row1, td.row3, td.row2, td.row1 over, td.spaceRow {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 2px 3px;
+  border-left: 1px solid #f8bfab;
+  border-right: 1px solid #f8bfab;
+}
+
+td.row3.over, td.row3Right {
+  padding: 2px 3px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-left: 1px solid #f8bfab;
+  border-right: 1px solid #f8bfab;
+}
+
+td.row3.over:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-left: 1px solid #f8bfab;
+  border-right: 1px solid #f8bfab;
+}
+
+/* Beiträge */
+div.signature_div {
+  border-top: 1px solid #f8bfab;
+  margin-top: 20px;
+}
+
+/* bottom */
+td.catBottom {
+  background: none;
+  height: 28px;
+  border: none;
+  color: black;
+}
+
+/* profile messages */
+#profile-advanced-details .message-header {
+    border-top: 1px solid #f8bfab;
+    padding: 4px;
+    margin-bottom: 4px;
+}
+
+/* Gruppenlegende */
+.groups {
+ color: #37422d; 
+}
+
+/* toolbar*/
+#fa_toolbar, #fa_toolbar_hidden, .see_all {
+  background-color: #172806;
+  color: black;
+  font-family: 'Comic Neue';
+}
+
+#fa_menulist, #notif_list {
+    background-color: #37422d;
+}
