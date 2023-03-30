@@ -27,6 +27,7 @@ switch(type) {
         break;
     case 'wert8':
         document.write('<link rel="stylesheet" type="text/css" href="styles/flügelplatin.css">');
+        break;
     default:
         document.write('<link rel="stylesheet" type="text/css" href="styles/nebelclan.css">');
 }
