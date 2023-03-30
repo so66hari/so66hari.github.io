@@ -31,17 +31,13 @@ body {
   width: 100%;
   height: fit-content;
   line-height: 100%;
+  padding: 0 4px;
 }
 
 #footer img {
   max-height: 8em;
   width: auto;
   margin: 4px;
-}
-
-#footer p {
-  padding: 50% 0;
-  display: inline;
 }
 
 #footer th {
