@@ -34,10 +34,11 @@ body {
 }
 
 #footer img {
-  height: 50%;
+  max-height: 50%;
   width: auto;
 }
 
 #footer p {
   margin: auto;
+  display: inline;
 }
