@@ -115,44 +115,43 @@ body, #sce_smilies_body {
 } 
 
 #i_icon_mini_faq {
-  content: url('https://i.servimg.com/u/f43/19/81/66/84/faq16.png');
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/faq-me11.png');
 }
 
 #i_icon_mini_search {
-  content: url('https://i.servimg.com/u/f43/19/81/66/84/such11.png');
+  content: url('https://i.servimg.com/u/f43/19/81/66/84/suche-11.png');
 }
 
 #i_icon_mini_members {
-  content: url('https://i.servimg.com/u/f43/19/81/66/84/mitgl16.png');
+  content: url('https://i.servimg.com/u/f63/18/44/95/75/katzen10.jpg');
 }
 
 #i_icon_mini_groups {
-  content: url('https://i.servimg.com/u/f43/19/81/66/84/grp13.png');
+  content: url('https://i.servimg.com/u/f63/18/44/95/75/clan10.jpg');
 }
 
 #i_icon_mini_profile {
-  content: url('https://i.servimg.com/u/f43/19/81/66/84/profil21.png');
+  content: url('https://i.servimg.com/u/f63/18/44/95/75/profil10.jpg');
 }
 
 #i_icon_mini_message {
-  content: url('https://i.servimg.com/u/f43/19/81/66/84/pn16.png');
+  content: url('https://i.servimg.com/u/f63/18/44/95/75/pn10.jpg');
 }
 
 #i_icon_mini_new_message {
-  content: url('https://i.servimg.com/u/f43/19/81/66/84/output13.gif');
+  content: url('https://i.servimg.com/u/f63/18/44/95/75/new_pn10.jpg');
 }
 
 #i_icon_mini_logout {
-  content: url('https://i.servimg.com/u/f43/19/81/66/84/logout20.png');
+  content: url('https://i.servimg.com/u/f63/18/44/95/75/logout10.jpg');
 }
 
 #i_icon_mini_login {
-  content: url('https://i.servimg.com/u/f43/19/81/66/84/login18.png');
+  content: url('https://i.servimg.com/u/f63/18/44/95/75/login10.jpg');
 }
 
 #i_icon_mini_register {
-  opacity: 0.4;
-  content: url('https://i.servimg.com/u/f43/19/81/66/84/anm11.png');
+  content: url('https://i.servimg.com/u/f63/18/44/95/75/sign_i10.jpg');
 }
 
 #i_whosonline {
