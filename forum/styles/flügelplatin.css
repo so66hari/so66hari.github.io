@@ -87,10 +87,9 @@ a:hover, .forumlink a:hover {
 }
 
 a.mainmenu img {
- height: 40px; 
+ width: 100px; 
   margin: 0 5px;
-  width: auto;
-  opacity: 0.3;
+  height: auto;
 }
 
 a.cattitle {
