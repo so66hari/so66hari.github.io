@@ -1,6 +1,6 @@
 /* global */
 th, td, p, button {
-    font-family: 'Comic Neue', sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
 }
 
 hr {
@@ -87,7 +87,7 @@ a:hover, .forumlink a:hover {
 }
 
 a.mainmenu img {
- width: 100px; 
+ width: 2000px; 
   margin: 0 5px;
   height: auto;
 }
