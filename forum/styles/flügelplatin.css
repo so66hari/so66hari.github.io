@@ -104,8 +104,7 @@ a.cattitle {
 /* Bilder */
 body, #sce_smilies_body {
   background: url('https://media.tenor.com/y-OzrLvKjw4AAAAd/scorpion-vibing-vibing.gif'), #5b5d76;
-  background-attachment: fixed;
-  background-size: 100%;
+  background-repeat: repeat;
 }
 
 #i_logo {
