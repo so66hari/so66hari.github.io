@@ -153,16 +153,14 @@ body, #sce_smilies_body {
 }
 
 #i_whosonline {
- content: url("https://2img.net/s/t/21/55/71/i_whosonline.gif"); 
+ content: url("https://imgflip.com/gif/7ghia6"); 
 }
 
 /* Kategorie */
 table.forumline {
   margin: 5px 0;
   border-collapse: collapse;
-  border: 1px solid #f8bfab;
   background-color: rgba(255, 255, 255, 0.2); 
-  box-shadow: 0 0 10px #b0817b;
 }
 
 .forumline th, #grouptitle, .catHead, td.catLeft, #pre, #next, .headButtons {
