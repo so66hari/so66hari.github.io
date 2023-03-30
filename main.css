@@ -19,7 +19,8 @@ body {
 }
 
 #info {
-  margin: auto;
+  width: fit-content;
+  margin: 50% auto;
   font-size: 5em;
 }
 
