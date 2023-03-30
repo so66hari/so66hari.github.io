@@ -31,7 +31,11 @@ body {
   width: 100%;
   height: fit-content;
   line-height: 100%;
-  padding: 0 4px;
+}
+
+#footer table {
+  width: 95%; 
+  margin: auto;
 }
 
 #footer img {
