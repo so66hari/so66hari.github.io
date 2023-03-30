@@ -30,13 +30,13 @@ body {
   border-top: 1px solid var(--accentDark);
   width: 100%;
   height: fit-content;
-  padding: 10px;
   line-height: 100%;
 }
 
 #footer img {
   max-height: 8em;
   width: auto;
+  margin: 4px;
 }
 
 #footer p {
@@ -46,4 +46,5 @@ body {
 
 #footer th {
   vertical-align: middle;
+  width: 33%;
 }
