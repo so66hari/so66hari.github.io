@@ -5,15 +5,12 @@ th, td, p, button {
 
 hr {
  height: 0;
- border: dotted #689bc6 0;
+ border: solid red 0;
  border-top-width: 1px;
 }
 
 hr, div.separator {
   border-top: 1px solid transparent;
-  border-image: 
-    radial-gradient(#b78d67, #172806);
-    border-image-slice: 1;
 }
 
 input, #submit_button {
@@ -102,9 +99,7 @@ a.cattitle {
 
 /* Startseite */
 .bodylinewidth, #smilies_header select {
-  box-shadow: 0px 0px 10px #b0817b;
-  background-color: #172806;
-  -webkit-box-shadow: 0px 0px 10px #b0817b;
+  background-color: #1ec94c;
 }
 
 /* Bilder */
@@ -183,25 +178,19 @@ table.forumline {
 }
 
 td.row1, td.row3, td.row2, td.row1 over, td.spaceRow {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #c72a18;
   padding: 2px 3px;
-  border-left: 1px solid #f8bfab;
-  border-right: 1px solid #f8bfab;
 }
 
 td.row3.over, td.row3Right {
   padding: 2px 3px;
   vertical-align: middle;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.2);
-  border-left: 1px solid #f8bfab;
-  border-right: 1px solid #f8bfab;
+  background-color: #c72a18;
 }
 
 td.row3.over:hover {
   background-color: rgba(0, 0, 0, 0.2);
-  border-left: 1px solid #f8bfab;
-  border-right: 1px solid #f8bfab;
 }
 
 /* Beiträge */
